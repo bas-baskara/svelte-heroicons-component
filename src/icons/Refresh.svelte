@@ -1,0 +1,12 @@
+<script>
+    import { createEventDispatcher } from 'svelte';
+
+    const dispatch = createEventDispatcher()
+
+    export let className = "", size = "1.5", strokeWidth = "2", fill = "none"
+
+</script>
+
+<svg xmlns="http://www.w3.org/2000/svg" class={className} {fill} viewBox="0 0 24 24" stroke="currentColor" style="width:{size}rem;height:{size}rem" on:click={() => dispatch('click')}>
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width={strokeWidth} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+</svg>
