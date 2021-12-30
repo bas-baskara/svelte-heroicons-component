@@ -6,13 +6,13 @@ This is a heroicons in svelte component
 ### Installing
 
 ```bash
-$ npm install -D svelte-heroicons-components
+$ npm install -D svelte-heroicons-component
 ```
 
 ### Usage
 
 ```js
-import { HomeIcon} from 'svelte-heroicons-components'
+import { HomeIcon} from 'svelte-heroicons-component'
 
 // to add click event you can do like this
 <HomeIcon on:click={callFunction}>
