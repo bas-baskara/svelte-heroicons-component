@@ -20,15 +20,21 @@ import { HomeIcon} from 'svelte-heroicons-component'
 ```
 
 ```js
-// default size is 1.5rem but you can customized the size like this
+
+// to add class name
+<HomeIcon size={4} className="hidden lg:block">
+
+```
+
+```js
+// default size is 1.5rem but you can customized the size like this (unit size is rem)
 <HomeIcon size={4}>
 
 ```
 
 ```js
-
-// to add class name
-<HomeIcon size={4} className="hidden lg:block">
+// If you use tailwindcss the classname w-* will override the size value
+<HomeIcon size={4} className="w-6 h-6 xl:w-8 h-8">
 
 ```
 
@@ -41,7 +47,7 @@ import { HomeIcon} from 'svelte-heroicons-component'
 
 ```js
 
-// If you use tailwindcss the classname stroke-* will override strokeWidth value
+// If you use tailwindcss the classname stroke-* will override the strokeWidth value
 <HomeIcon strokeWidth={5} className="stroke-2">
 
 ```
