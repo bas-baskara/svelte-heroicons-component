@@ -59,7 +59,9 @@ import { HomeIcon} from 'svelte-heroicons-component'
 
 ```
 
-Available Icons are:
+* Solid Icons will ready in next version *
+
+Available Outline Icons are:
 
 AcademicCapIcon<br>
 AdjustmentIcon<br>
@@ -291,3 +293,7 @@ XCircleIcon<br>
 XIconIcon<br>
 ZoomInIcon<br>
 ZoomOutIcon<br>
+
+Available Solid Icons are:
+
+EyeSolidIcon
