@@ -1,0 +1,23 @@
+<script>
+    import { createEventDispatcher } from 'svelte';
+
+    const dispatch = createEventDispatcher()
+
+    export let className = "", size = "1.5"
+
+    if (className) {
+        const classes = className.split(' ')
+        classes.forEach(val => {
+            const name = val.replace(/[:(sm)(md)(lg)(xl)(2xl)]/g, '')
+            if (name.slice(0,2) == 'w-') {
+                size = null
+                return
+            }
+        })
+    }
+
+</script>
+
+<svg xmlns="http://www.w3.org/2000/svg" class={className} viewBox="0 0 20 20" fill="currentColor" style="width:{size}rem;height:{size}rem" on:click={() => dispatch('click')}>
+    <path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm1 8a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd" />
+</svg>
