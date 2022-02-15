@@ -8,7 +8,7 @@
 
     $: {
         units.forEach(v => {
-            if (size.toString().indexOf(v) != -1) {
+            if (size?.toString().indexOf(v) != -1) {
                 hasUnit = true
                 return
             }
