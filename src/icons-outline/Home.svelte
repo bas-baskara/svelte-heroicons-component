@@ -4,6 +4,16 @@
     const dispatch = createEventDispatcher()
 
     export let className = "", size = "1.5", strokeWidth = "2", fill = "none"
+    let units = ['cm', 'mm', 'in', 'px', 'pt', 'pc'], hasUnit
+
+    $: {
+        units.forEach(v => {
+            if (size.toString().indexOf(v) != -1) {
+                hasUnit = true
+                return
+            }
+        })
+    }
 
     if (className.includes('stroke-')) strokeWidth = null
 
@@ -20,6 +30,6 @@
 
 </script>
 
-<svg xmlns="http://www.w3.org/2000/svg" class={className} {fill} viewBox="0 0 24 24" stroke="currentColor" style="width:{size}rem;height:{size}rem" on:click={() => dispatch('click')}>
+<svg xmlns="http://www.w3.org/2000/svg" class={className} {fill} viewBox="0 0 24 24" stroke="currentColor" style="width:{size}{hasUnit ? '':'rem'};height:{size}{hasUnit ? '':'rem'}" on:click={() => dispatch('click')}>
     <path stroke-linecap="round" stroke-linejoin="round" stroke-width={strokeWidth} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
 </svg>
