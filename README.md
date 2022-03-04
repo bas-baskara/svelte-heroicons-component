@@ -6,7 +6,7 @@ This is a heroicons in svelte component
 ### Installing
 
 ```bash
-$ npm install -D svelte-heroicons-component
+npm install -D svelte-heroicons-component
 ```
 
 ### Usage
@@ -78,6 +78,7 @@ import { HomeIcon, HomeSolidIcon} from 'svelte-heroicons-component'
 ```
 
 Available Icons:
+[https://heroicons.com](https://heroicons.com/)
 
 
 
