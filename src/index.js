@@ -1,6 +1,6 @@
 // outline
 export {default as AcademicCapIcon}  from './icons-outline/AcademicCap.svelte'
-export {default as AdjustmentIcon}  from './icons-outline/Adjustment.svelte'
+export {default as AdjustmentsIcon}  from './icons-outline/Adjustments.svelte'
 export {default as AnnotationIcon}  from './icons-outline/Annotation.svelte'
 export {default as ArchiveIcon}  from './icons-outline/Archive.svelte'
 export {default as ArrowCircleDownIcon}  from './icons-outline/ArrowCircleDown.svelte'
@@ -232,7 +232,7 @@ export {default as ZoomOutIcon}  from './icons-outline/ZoomOut.svelte'
 
 // solid
 export {default as AcademicCapSolidIcon}  from './icons-solid/AcademicCap.svelte'
-export {default as AdjustmentSolidIcon}  from './icons-solid/Adjustment.svelte'
+export {default as AdjustmentsSolidIcon}  from './icons-solid/Adjustments.svelte'
 export {default as AnnotationSolidIcon}  from './icons-solid/Annotation.svelte'
 export {default as ArchiveSolidIcon}  from './icons-solid/Archive.svelte'
 export {default as ArrowCircleDownSolidIcon}  from './icons-solid/ArrowCircleDown.svelte'
