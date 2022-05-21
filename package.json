@@ -1,8 +1,10 @@
 {
   "name": "svelte-heroicons-component",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Heroicons in svelte components",
   "main": "dist/index.js",
+  "svelte": "src/index.js",
+  "types": "src/index.ts",
   "scripts": {
     "build": "rollup -c"
   },
@@ -21,6 +23,5 @@
     "rollup": "^2.62.0",
     "rollup-plugin-svelte": "^7.1.0",
     "svelte": "^3.44.3"
-  },
-  "svelte": "src/index.js"
+  }
 }
