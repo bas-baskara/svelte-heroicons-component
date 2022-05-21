@@ -1,6 +1,6 @@
 {
   "name": "svelte-heroicons-component",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Heroicons in svelte components",
   "main": "dist/index.js",
   "svelte": "src/index.js",
@@ -14,7 +14,10 @@
   },
   "keywords": [
     "heroicons",
-    "svelte"
+    "svelte",
+    "typescript",
+    "tailwind",
+    "sveltekit"
   ],
   "author": "Baskara",
   "license": "ISC",
