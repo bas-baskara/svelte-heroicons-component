@@ -1,13 +1,13 @@
 {
   "name": "svelte-heroicons-component",
-  "version": "1.0.18",
+  "version": "0.0.0-development",
   "description": "Heroicons in svelte components",
   "main": "dist/index.js",
   "svelte": "src/index.js",
   "types": "src/index.ts",
   "scripts": {
     "build": "rollup -c",
-    "semantic-release": "semantic-release --branches main",
+    "semantic-release": "semantic-release -r git@github.com:bas-baskara/svelte-heroicons-component.git",
     "commit": "git-cz",
     "add-and-push": "git add -A && git-cz && git push"
   },
@@ -22,6 +22,7 @@
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.1.1",
+    "@semantic-release/github": "^8.0.4",
     "cz-conventional-changelog": "^3.3.0",
     "rollup": "^2.62.0",
     "rollup-plugin-svelte": "^7.1.0",
@@ -36,5 +37,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/bas-baskara/svelte-heroicons-component.git"
+  },
+  "release": {
+    "branches": ["main"]
   }
 }
