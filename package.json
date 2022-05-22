@@ -7,7 +7,7 @@
   "types": "src/index.ts",
   "scripts": {
     "build": "rollup -c",
-    "semantic-release": "semantic-release -r git@github.com:bas-baskara/svelte-heroicons-component.git",
+    "semantic-release": "semantic-release --branches main",
     "commit": "git-cz",
     "add-and-push": "git add -A && git-cz && git push"
   },

@@ -1,8 +1,5 @@
 # Svelte Heroicons Component
 
-This is a heroicons in svelte component
-
-
 ### Installing
 
 ```bash
