@@ -4,12 +4,13 @@
   "description": "Heroicons in svelte components",
   "main": "dist/index.js",
   "svelte": "src/index.js",
-  "types": "src/index.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
     "semantic-release": "semantic-release --branches main",
     "commit": "git-cz",
-    "add-and-push": "git add -A && git-cz && git push"
+    "add-and-push": "git add -A && git-cz && git push",
+    "ts": "tsc"
   },
   "keywords": [
     "heroicons",
@@ -27,7 +28,8 @@
     "rollup": "^2.62.0",
     "rollup-plugin-svelte": "^7.1.0",
     "semantic-release": "^19.0.2",
-    "svelte": "^3.44.3"
+    "svelte": "^3.44.3",
+    "typescript": "^4.7.2"
   },
   "config": {
     "commitizen": {

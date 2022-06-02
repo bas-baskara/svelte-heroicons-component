@@ -1,6 +1,6 @@
 # Svelte Heroicons Component
 
-Heroicons component for Svelte. You can add CSS by passing className props
+Heroicons component for Svelte. Available props are: className, size, strokeWidth, and fill(solid icon only). You can also add on:click event.
 
 ### Installing
 
