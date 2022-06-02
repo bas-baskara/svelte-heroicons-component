@@ -1,5 +1,7 @@
 # Svelte Heroicons Component
 
+Heroicons component for Svelte. You can add CSS by passing className props
+
 ### Installing
 
 ```bash

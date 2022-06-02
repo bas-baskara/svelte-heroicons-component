@@ -15,7 +15,6 @@
     "heroicons",
     "svelte",
     "typescript",
-    "tailwind",
     "sveltekit"
   ],
   "author": "Baskara",
@@ -23,6 +22,7 @@
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.1.1",
     "@semantic-release/github": "^8.0.4",
+    "@tsconfig/svelte": "^3.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "rollup": "^2.62.0",
     "rollup-plugin-svelte": "^7.1.0",
@@ -39,6 +39,8 @@
     "url": "https://github.com/bas-baskara/svelte-heroicons-component.git"
   },
   "release": {
-    "branches": ["main"]
+    "branches": [
+      "main"
+    ]
   }
 }
