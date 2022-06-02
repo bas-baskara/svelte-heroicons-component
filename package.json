@@ -1,13 +1,13 @@
 {
   "name": "svelte-heroicons-component",
-  "version": "1.0.2",
+  "version": "0.0.0-development",
   "description": "Heroicons in svelte components",
   "main": "dist/index.js",
   "svelte": "src/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
-    "semantic-release": "semantic-release --branches main",
+    "semantic-release": "semantic-release",
     "commit": "git-cz",
     "add-and-push": "git add -A && git-cz && git push",
     "ts": "tsc"
