@@ -29,5 +29,5 @@
     "outDir": "dist"
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules/*", "__sapper__/*", "public/*", "dist"]
+  "exclude": ["node_modules/*", "public/*", "dist"]
 }
