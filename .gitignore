@@ -2,4 +2,3 @@
 /public/build/
 .env
 .DS_Store
-dist
