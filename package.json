@@ -1,6 +1,6 @@
 {
   "name": "svelte-heroicons-component",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Heroicons in svelte components",
   "main": "dist/index.js",
   "svelte": "src/index.js",
@@ -44,5 +44,6 @@
     "branches": [
       "main"
     ]
-  }
+  },
+  "type": "module"
 }
