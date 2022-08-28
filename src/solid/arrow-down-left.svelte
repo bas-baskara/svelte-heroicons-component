@@ -1,0 +1,35 @@
+<script>
+    import { createEventDispatcher } from 'svelte';
+
+    const dispatch = createEventDispatcher()
+
+    export let className = "", size = "1.5", strokeWidth = "2", fill = "#0F172A"
+    let units = ['cm', 'mm', 'in', 'px', 'pt', 'pc'], hasUnit
+
+    $: {
+        units.forEach(v => {
+            if (size?.toString().indexOf(v) != -1) {
+                hasUnit = true
+                return
+            }
+        })
+    }
+
+    if (className.includes('stroke-')) strokeWidth = null
+
+    if (className) {
+        const classes = className.split(' ')
+        classes.forEach(val => {
+            const name = val.replace(/[:(sm)(md)(lg)(xl)(2xl)]/g, '')
+            if (name.slice(0,2) == 'w-') {
+                size = null
+                return
+            }
+        })
+    }
+
+</script>
+
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"  style="width:{size}{hasUnit ? '':'rem'};height:{size}{hasUnit ? '':'rem'}" on:click={() => dispatch('click')} >
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20.0303 3.96967C20.3232 4.26256 20.3232 4.73744 20.0303 5.03033L6.31066 18.75L15.75 18.75C16.1642 18.75 16.5 19.0858 16.5 19.5C16.5 19.9142 16.1642 20.25 15.75 20.25L4.5 20.25C4.08579 20.25 3.75 19.9142 3.75 19.5L3.75 8.25C3.75 7.83579 4.08579 7.5 4.5 7.5C4.91421 7.5 5.25 7.83579 5.25 8.25L5.25 17.6893L18.9697 3.96967C19.2626 3.67678 19.7374 3.67678 20.0303 3.96967Z" {fill} />
+</svg>
