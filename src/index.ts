@@ -1,463 +1,766 @@
-// outline
-export {default as AcademicCapIcon}  from './icons-outline/AcademicCap.svelte'
-export {default as AdjustmentsIcon}  from './icons-outline/Adjustments.svelte'
-export {default as AnnotationIcon}  from './icons-outline/Annotation.svelte'
-export {default as ArchiveIcon}  from './icons-outline/Archive.svelte'
-export {default as ArrowCircleDownIcon}  from './icons-outline/ArrowCircleDown.svelte'
-export {default as ArrowCircleLeftIcon}  from './icons-outline/ArrowCircleLeft.svelte'
-export {default as ArrowCircleRightIcon}  from './icons-outline/ArrowCircleRight.svelte'
-export {default as ArrowCircleUpIcon}  from './icons-outline/ArrowCircleUp.svelte'
-export {default as ArrowDownIcon}  from './icons-outline/ArrowDown.svelte'
-export {default as ArrowsExpandIcon}  from './icons-outline/ArrowsExpand.svelte'
-export {default as ArrowLeftIcon}  from './icons-outline/ArrowLeft.svelte'
-export {default as ArrowNarrowDownIcon}  from './icons-outline/ArrowNarrowDown.svelte'
-export {default as ArrowNarrowLeftIcon}  from './icons-outline/ArrowNarrowLeft.svelte'
-export {default as ArrowNarrowRightIcon}  from './icons-outline/ArrowNarrowRight.svelte'
-export {default as ArrowNarrowUpIcon}  from './icons-outline/ArrowNarrowUp.svelte'
-export {default as ArrowRightIcon}  from './icons-outline/ArrowRight.svelte'
-export {default as ArrowSmDownIcon}  from './icons-outline/ArrowSmDown.svelte'
-export {default as ArrowSmLeftIcon}  from './icons-outline/ArrowSmLeft.svelte'
-export {default as ArrowSmRightIcon}  from './icons-outline/ArrowSmRight.svelte'
-export {default as ArrowSmUpIcon}  from './icons-outline/ArrowSmUp.svelte'
-export {default as ArrowUpIcon}  from './icons-outline/ArrowUp.svelte'
-export {default as AtSymbolIcon}  from './icons-outline/AtSymbol.svelte'
-export {default as BackspaceIcon}  from './icons-outline/Backspace.svelte'
-export {default as BadgeCheckIcon}  from './icons-outline/BadgeCheck.svelte'
-export {default as BanIcon}  from './icons-outline/Ban.svelte'
-export {default as BeakerIcon}  from './icons-outline/Beaker.svelte'
-export {default as BellIcon}  from './icons-outline/Bell.svelte'
-export {default as BookmarkIcon}  from './icons-outline/Bookmark.svelte'
-export {default as BookmarkAltIcon}  from './icons-outline/BookmarkAlt.svelte'
-export {default as BookOpenIcon}  from './icons-outline/BookOpen.svelte'
-export {default as BriefcaseIcon}  from './icons-outline/Briefcase.svelte'
-export {default as CalculatorIcon}  from './icons-outline/Calculator.svelte'
-export {default as CalendarIcon}  from './icons-outline/Calendar.svelte'
-export {default as CameraIcon}  from './icons-outline/Camera.svelte'
-export {default as CakeIcon}  from './icons-outline/Cake.svelte'
-export {default as CashIcon}  from './icons-outline/Cash.svelte'
-export {default as ChartBarIcon}  from './icons-outline/ChartBar.svelte'
-export {default as ChartPieIcon}  from './icons-outline/ChartPie.svelte'
-export {default as ChartSquareBarIcon}  from './icons-outline/ChartSquareBar.svelte'
-export {default as ChatIcon}  from './icons-outline/Chat.svelte'
-export {default as ChatAltIcon}  from './icons-outline/ChatAlt.svelte'
-export {default as ChatAlt2Icon}  from './icons-outline/ChatAlt2.svelte'
-export {default as CheckIcon}  from './icons-outline/Check.svelte'
-export {default as CheckCircleIcon}  from './icons-outline/CheckCircle.svelte'
-export {default as ChevronDoubleDownIcon}  from './icons-outline/ChevronDoubleDown.svelte'
-export {default as ChevronDoubleLeftIcon}  from './icons-outline/ChevronDoubleLeft.svelte'
-export {default as ChevronDoubleRightIcon}  from './icons-outline/ChevronDoubleRight.svelte'
-export {default as ChevronDoubleUpIcon}  from './icons-outline/ChevronDoubleUp.svelte'
-export {default as ChevronDownIcon}  from './icons-outline/ChevronDown.svelte'
-export {default as ChevronLeftIcon}  from './icons-outline/ChevronLeft.svelte'
-export {default as ChevronRightIcon}  from './icons-outline/ChevronRight.svelte'
-export {default as ChevronUpIcon}  from './icons-outline/ChevronUp.svelte'
-export {default as ChipIcon}  from './icons-outline/Chip.svelte'
-export {default as ClipboardIcon}  from './icons-outline/Clipboard.svelte'
-export {default as ClipboardCheckIcon}  from './icons-outline/ClipboardCheck.svelte'
-export {default as ClipboardCopyIcon}  from './icons-outline/ClipboardCopy.svelte'
-export {default as ClipboardListIcon}  from './icons-outline/ClipboardList.svelte'
-export {default as ClockIcon}  from './icons-outline/Clock.svelte'
-export {default as CloudIcon}  from './icons-outline/Cloud.svelte'
-export {default as CloudDownloadIcon}  from './icons-outline/CloudDownload.svelte'
-export {default as CloudUploadIcon}  from './icons-outline/CloudUpload.svelte'
-export {default as CodeIcon}  from './icons-outline/Code.svelte'
-export {default as CogIcon}  from './icons-outline/Cog.svelte'
-export {default as CollectionIcon}  from './icons-outline/Collection.svelte'
-export {default as ColorSwatchIcon}  from './icons-outline/ColorSwatch.svelte'
-export {default as CreditCardIcon}  from './icons-outline/CreditCard.svelte'
-export {default as CubeIcon}  from './icons-outline/Cube.svelte'
-export {default as CubeTransparentIcon}  from './icons-outline/CubeTransparent.svelte'
-export {default as CurrencyBangladeshiIcon}  from './icons-outline/CurrencyBangladeshi.svelte'
-export {default as CurrencyDollarIcon}  from './icons-outline/CurrencyDollar.svelte'
-export {default as CurrencyEuroIcon}  from './icons-outline/CurrencyEuro.svelte'
-export {default as CurrencyPoundIcon}  from './icons-outline/CurrencyPound.svelte'
-export {default as CurrencyRupeeIcon}  from './icons-outline/CurrencyRupee.svelte'
-export {default as CurrencyYenIcon}  from './icons-outline/CurrencyYen.svelte'
-export {default as CursorClickIcon}  from './icons-outline/CursorClick.svelte'
-export {default as DatabaseIcon}  from './icons-outline/Database.svelte'
-export {default as DesktopComputerIcon}  from './icons-outline/DesktopComputer.svelte'
-export {default as DeviceMobileIcon}  from './icons-outline/DeviceMobile.svelte'
-export {default as DeviceTabletIcon}  from './icons-outline/DeviceTablet.svelte'
-export {default as DocumentIcon}  from './icons-outline/Document.svelte'
-export {default as DocumentAddIcon}  from './icons-outline/DocumentAdd.svelte'
-export {default as DocumentDownloadIcon}  from './icons-outline/DocumentDownload.svelte'
-export {default as DocumentDuplicateIcon}  from './icons-outline/DocumentDuplicate.svelte'
-export {default as DocumentRemoveIcon}  from './icons-outline/DocumentRemove.svelte'
-export {default as DocumentReportIcon}  from './icons-outline/DocumentReport.svelte'
-export {default as DocumentSearchIcon}  from './icons-outline/DocumentSearch.svelte'
-export {default as DocumentTextIcon}  from './icons-outline/DocumentText.svelte'
-export {default as DotsCircleHorizontalIcon}  from './icons-outline/DotsCircleHorizontal.svelte'
-export {default as DotsHorizontalIcon}  from './icons-outline/DotsHorizontal.svelte'
-export {default as DotsVerticalIcon}  from './icons-outline/DotsVertical.svelte'
-export {default as DownloadIcon}  from './icons-outline/Download.svelte'
-export {default as DuplicateIcon}  from './icons-outline/Duplicate.svelte'
-export {default as EmojiHappyIcon}  from './icons-outline/EmojiHappy.svelte'
-export {default as EmojiSadIcon}  from './icons-outline/EmojiSad.svelte'
-export {default as ExclamationIcon}  from './icons-outline/Exclamation.svelte'
-export {default as ExclamationCircleIcon}  from './icons-outline/ExclamationCircle.svelte'
-export {default as ExternalLinkIcon}  from './icons-outline/ExternalLink.svelte'
-export {default as EyeIcon}  from './icons-outline/Eye.svelte'
-export {default as EyeOffIcon}  from './icons-outline/EyeOff.svelte'
-export {default as FastForwardIcon}  from './icons-outline/FastForward.svelte'
-export {default as FilmIcon}  from './icons-outline/Film.svelte'
-export {default as FilterIcon}  from './icons-outline/Filter.svelte'
-export {default as FingerPrintIcon}  from './icons-outline/FingerPrint.svelte'
-export {default as FireIcon}  from './icons-outline/Fire.svelte'
-export {default as FlagIcon}  from './icons-outline/Flag.svelte'
-export {default as FolderIcon}  from './icons-outline/Folder.svelte'
-export {default as FolderAddIcon}  from './icons-outline/FolderAdd.svelte'
-export {default as FolderDownloadIcon}  from './icons-outline/FolderDownload.svelte'
-export {default as FolderOpenIcon}  from './icons-outline/FolderOpen.svelte'
-export {default as FolderRemoveIcon}  from './icons-outline/FolderRemove.svelte'
-export {default as GiftIcon}  from './icons-outline/Gift.svelte'
-export {default as GlobeIcon}  from './icons-outline/Globe.svelte'
-export {default as GlobeAltIcon}  from './icons-outline/GlobeAlt.svelte'
-export {default as HandIcon}  from './icons-outline/Hand.svelte'
-export {default as HastagIcon}  from './icons-outline/Hastag.svelte'
-export {default as HeartIcon}  from './icons-outline/Heart.svelte'
-export {default as HomeIcon}  from './icons-outline/Home.svelte'
-export {default as IdentificationIcon}  from './icons-outline/Identification.svelte'
-export {default as InboxIcon}  from './icons-outline/Inbox.svelte'
-export {default as InboxInIcon}  from './icons-outline/InboxIn.svelte'
-export {default as InformationCircleIcon}  from './icons-outline/InformationCircle.svelte'
-export {default as KeyIcon}  from './icons-outline/Key.svelte'
-export {default as LibraryIcon}  from './icons-outline/Library.svelte'
-export {default as LightBulbIcon}  from './icons-outline/LightBulb.svelte'
-export {default as LightningBoltIcon}  from './icons-outline/LightningBolt.svelte'
-export {default as LinkIcon}  from './icons-outline/Link.svelte'
-export {default as LocationMarkerIcon}  from './icons-outline/LocationMarker.svelte'
-export {default as LockClosedIcon}  from './icons-outline/LockClosed.svelte'
-export {default as LockOpenIcon}  from './icons-outline/LockOpen.svelte'
-export {default as LoginIcon}  from './icons-outline/Login.svelte'
-export {default as LogoutIcon}  from './icons-outline/Logout.svelte'
-export {default as MailIcon}  from './icons-outline/Mail.svelte'
-export {default as MailOpenIcon}  from './icons-outline/MailOpen.svelte'
-export {default as MapIcon}  from './icons-outline/Map.svelte'
-export {default as MenuIcon}  from './icons-outline/Menu.svelte'
-export {default as MenuAlt1Icon}  from './icons-outline/MenuAlt1.svelte'
-export {default as MenuAlt2Icon}  from './icons-outline/MenuAlt2.svelte'
-export {default as MenuAlt3Icon}  from './icons-outline/MenuAlt3.svelte'
-export {default as MenuAlt4Icon}  from './icons-outline/MenuAlt4.svelte'
-export {default as MicrophoneIcon}  from './icons-outline/Microphone.svelte'
-export {default as MinusIcon}  from './icons-outline/Minus.svelte'
-export {default as MinusCircleIcon}  from './icons-outline/MinusCircle.svelte'
-export {default as MinusSmIcon}  from './icons-outline/MinusSm.svelte'
-export {default as MoonIcon}  from './icons-outline/Moon.svelte'
-export {default as MusicNoteIcon}  from './icons-outline/MusicNote.svelte'
-export {default as NewspaperIcon}  from './icons-outline/Newspaper.svelte'
-export {default as OfficeBuildingIcon}  from './icons-outline/OfficeBuilding.svelte'
-export {default as PaperAirplaneIcon}  from './icons-outline/PaperAirplane.svelte'
-export {default as PaperClipIcon}  from './icons-outline/PaperClip.svelte'
-export {default as PauseIcon}  from './icons-outline/Pause.svelte'
-export {default as PencilIcon}  from './icons-outline/Pencil.svelte'
-export {default as PencilAltIcon}  from './icons-outline/PencilAlt.svelte'
-export {default as PhoneIcon}  from './icons-outline/Phone.svelte'
-export {default as PhoneIncomingIcon}  from './icons-outline/PhoneIncoming.svelte'
-export {default as PhoneMissedCallIcon}  from './icons-outline/PhoneMissedCall.svelte'
-export {default as PhoneOutgoingIcon}  from './icons-outline/PhoneOutgoing.svelte'
-export {default as PhotographIcon}  from './icons-outline/Photograph.svelte'
-export {default as PlayIcon}  from './icons-outline/Play.svelte'
-export {default as PlusIcon}  from './icons-outline/Plus.svelte'
-export {default as PlusCircleIcon}  from './icons-outline/PlusCircle.svelte'
-export {default as PlusSmIcon}  from './icons-outline/PlusSm.svelte'
-export {default as PresentationChartBarIcon}  from './icons-outline/PresentationChartBar.svelte'
-export {default as PresentationChartLineIcon}  from './icons-outline/PresentationChartLine.svelte'
-export {default as PrinterIcon}  from './icons-outline/Printer.svelte'
-export {default as PuzzleIcon}  from './icons-outline/Puzzle.svelte'
-export {default as QrcodeIcon}  from './icons-outline/Qrcode.svelte'
-export {default as QuestionMarkCircleIcon}  from './icons-outline/QuestionMarkCircle.svelte'
-export {default as ReceiptRefundIcon}  from './icons-outline/ReceiptRefund.svelte'
-export {default as ReceiptTaxIcon}  from './icons-outline/ReceiptTax.svelte'
-export {default as RefreshIcon}  from './icons-outline/Refresh.svelte'
-export {default as ReplyIcon}  from './icons-outline/Reply.svelte'
-export {default as RewindIcon}  from './icons-outline/Rewind.svelte'
-export {default as RssIcon}  from './icons-outline/Rss.svelte'
-export {default as SaveIcon}  from './icons-outline/Save.svelte'
-export {default as SaveAsIcon}  from './icons-outline/SaveAs.svelte'
-export {default as ScaleIcon}  from './icons-outline/Scale.svelte'
-export {default as ScissorsIcon}  from './icons-outline/Scissors.svelte'
-export {default as SearchIcon}  from './icons-outline/Search.svelte'
-export {default as SearchCircleIcon}  from './icons-outline/SearchCircle.svelte'
-export {default as SelectorIcon}  from './icons-outline/Selector.svelte'
-export {default as ServerIcon}  from './icons-outline/Server.svelte'
-export {default as ShareIcon}  from './icons-outline/Share.svelte'
-export {default as ShieldCheckIcon}  from './icons-outline/ShieldCheck.svelte'
-export {default as ShieldExclamationIcon}  from './icons-outline/ShieldExclamation.svelte'
-export {default as ShoppingBagIcon}  from './icons-outline/ShoppingBag.svelte'
-export {default as ShoppingCartIcon}  from './icons-outline/ShoppingCart.svelte'
-export {default as SortAscendingIcon}  from './icons-outline/SortAscending.svelte'
-export {default as SortDescendingIcon}  from './icons-outline/SortDescending.svelte'
-export {default as SparklesIcon}  from './icons-outline/Sparkles.svelte'
-export {default as SpeakerPhoneIcon}  from './icons-outline/SpeakerPhone.svelte'
-export {default as StarIcon}  from './icons-outline/Star.svelte'
-export {default as StatusOfflineIcon}  from './icons-outline/StatusOffline.svelte'
-export {default as StatusOnlineIcon}  from './icons-outline/StatusOnline.svelte'
-export {default as StopIcon}  from './icons-outline/Stop.svelte'
-export {default as SunIcon}  from './icons-outline/Sun.svelte'
-export {default as SupportIcon}  from './icons-outline/Support.svelte'
-export {default as SwitchHorizontalIcon}  from './icons-outline/SwitchHorizontal.svelte'
-export {default as SwitchVerticalIcon}  from './icons-outline/SwitchVertical.svelte'
-export {default as TableIcon}  from './icons-outline/Table.svelte'
-export {default as TagIcon}  from './icons-outline/Tag.svelte'
-export {default as TemplateIcon}  from './icons-outline/Template.svelte'
-export {default as TerminalIcon}  from './icons-outline/Terminal.svelte'
-export {default as ThumbDownIcon}  from './icons-outline/ThumbDown.svelte'
-export {default as ThumbUpIcon}  from './icons-outline/ThumbUp.svelte'
-export {default as TicketIcon}  from './icons-outline/Ticket.svelte'
-export {default as TranslateIcon}  from './icons-outline/Translate.svelte'
-export {default as TrashIcon}  from './icons-outline/Trash.svelte'
-export {default as TrendingDownIcon}  from './icons-outline/TrendingDown.svelte'
-export {default as TrendingUpIcon}  from './icons-outline/TrendingUp.svelte'
-export {default as TruckIcon}  from './icons-outline/Truck.svelte'
-export {default as UploadIcon}  from './icons-outline/Upload.svelte'
-export {default as UserIcon}  from './icons-outline/User.svelte'
-export {default as UserAddIcon}  from './icons-outline/UserAdd.svelte'
-export {default as UserCircleIcon}  from './icons-outline/UserCircle.svelte'
-export {default as UserGroupIcon}  from './icons-outline/UserGroup.svelte'
-export {default as UserRemoveIcon}  from './icons-outline/UserRemove.svelte'
-export {default as UsersIcon}  from './icons-outline/Users.svelte'
-export {default as VariableIcon}  from './icons-outline/Variable.svelte'
-export {default as VideoCameraIcon}  from './icons-outline/VideoCamera.svelte'
-export {default as ViewBoardsIcon}  from './icons-outline/ViewBoards.svelte'
-export {default as ViewGridIcon}  from './icons-outline/ViewGrid.svelte'
-export {default as ViewGridAddIcon}  from './icons-outline/ViewGridAdd.svelte'
-export {default as ViewListIcon}  from './icons-outline/ViewList.svelte'
-export {default as VolumeOffIcon}  from './icons-outline/VolumeOff.svelte'
-export {default as VolumeUpIcon}  from './icons-outline/VolumeUp.svelte'
-export {default as WifiIcon}  from './icons-outline/Wifi.svelte'
-export {default as XIcon}  from './icons-outline/X.svelte'
-export {default as XCircleIcon}  from './icons-outline/XCircle.svelte'
-export {default as ZoomInIcon}  from './icons-outline/ZoomIn.svelte'
-export {default as ZoomOutIcon}  from './icons-outline/ZoomOut.svelte'
+/*
+Barus ampai apa ada file arrow-down-right.svelte
+*/
 
+
+// outline
+export { default as AcademicCapIcon } from './outline/academic-cap.svelte';
+export { default as AdjustmentsIcon } from './outline/adjustments-horizontal.svelte';
+export { default as AdjustmentsHorizontalIcon } from './outline/adjustments-horizontal.svelte';
+export { default as AdjustmentsVerticalIcon } from './outline/adjustments-vertical.svelte';
+export { default as AnnotationIcon } from './outline/annotation.svelte';
+export { default as ArchiveIcon } from './outline/archive-box.svelte';
+export { default as ArchiveBoxIcon } from './outline/archive-box.svelte';
+export { default as ArchiveBoxArrowDownIcon } from './outline/archive-box-arrow-down.svelte';
+export { default as ArchiveBoxXMarkIcon } from './outline/archive-box-x-mark.svelte';
+export { default as ArrowCircleDownIcon } from './outline/arrow-down-circle.svelte';
+export { default as ArrowDownCircleIcon } from './outline/arrow-down-circle.svelte';
+export { default as ArrowDownLeftIcon } from './outline/arrow-down-left.svelte';
+export { default as ArrowDownOnSquareIcon } from './outline/arrow-down-on-square.svelte';
+export { default as ArrowDownOnSquareStackIcon } from './outline/arrow-down-on-square-stack.svelte';
+export { default as ArrowCircleLeftIcon } from './outline/arrow-left-circle.svelte';
+export { default as ArrowLeftCircleIcon } from './outline/arrow-left-circle.svelte';
+export { default as ArrowCircleRightIcon } from './outline/arrow-right-circle.svelte';
+export { default as ArrowRightCircleIcon } from './outline/arrow-right-circle.svelte';
+export { default as ArrowCircleUpIcon } from './outline/arrow-up-circle.svelte';
+export { default as ArrowUpCircleIcon } from './outline/arrow-up-circle.svelte';
+export { default as ArrowDownIcon } from './outline/arrow-down.svelte';
+export { default as ArrowUpLeftIcon } from './outline/arrow-up-left.svelte';
+export { default as ArrowDownRightIcon } from './outline/arrow-down-right.svelte';
+export { default as ArrowsExpandIcon } from './outline/arrows-pointing-out.svelte';
+export { default as ArrowsPontingOutIcon } from './outline/arrows-pointing-out.svelte';
+export { default as ArrowLeftIcon } from './outline/arrow-left.svelte';
+export { default as ArrowNarrowDownIcon } from './outline/arrow-long-down.svelte';
+export { default as ArrowLongDownIcon } from './outline/arrow-long-down.svelte';
+export { default as ArrowNarrowLeftIcon } from './outline/arrow-long-left.svelte';
+export { default as ArrowLongLeftIcon } from './outline/arrow-long-left.svelte';
+export { default as ArrowNarrowRightIcon } from './outline/arrow-long-right.svelte';
+export { default as ArrowLongRightIcon } from './outline/arrow-long-right.svelte';
+export { default as ArrowNarrowUpIcon } from './outline/arrow-long-up.svelte';
+export { default as ArrowLongUpIcon } from './outline/arrow-long-up.svelte';
+export { default as ArrowRightIcon } from './outline/arrow-right.svelte';
+export { default as ArrowSmDownIcon } from './outline/arrow-sm-down.svelte';
+export { default as ArrowSmLeftIcon } from './outline/arrow-sm-left.svelte';
+export { default as ArrowSmRightIcon } from './outline/arrow-sm-right.svelte';
+export { default as ArrowSmUpIcon } from './outline/arrow-sm-up.svelte';
+export { default as ArrowUpIcon } from './outline/arrow-up.svelte';
+export { default as ArrowsPointingInIcon } from './outline/arrows-pointing-in.svelte';
+export { default as ArrowsPointingOutIcon } from './outline/arrows-pointing-out.svelte';
+export { default as AtSymbolIcon } from './outline/at-symbol.svelte';
+export { default as ArrowUturnDownIcon } from './outline/arrow-uturn-down.svelte';
+export { default as ArrowUturnLeftIcon } from './outline/arrow-uturn-left.svelte';
+export { default as ArrowUturnRightIcon } from './outline/arrow-uturn-right.svelte';
+export { default as ArrowUturnUpIcon } from './outline/arrow-uturn-up.svelte';
+export { default as BackspaceIcon } from './outline/backspace.svelte';
+export { default as BadgeCheckIcon } from './outline/check-badge.svelte';
+export { default as CheckBadgeIcon } from './outline/check-badge.svelte';
+export { default as BanIcon } from './outline/no-symbol.svelte';
+export { default as NoSymbolIcon } from './outline/no-symbol.svelte';
+export { default as BeakerIcon } from './outline/beaker.svelte';
+export { default as BellIcon } from './outline/bell.svelte';
+export { default as BellAlertIcon } from './outline/bell-alert.svelte';
+export { default as BellSlashIcon } from './outline/bell-slash.svelte';
+export { default as BellSnoozeIcon } from './outline/bell-snooze.svelte';
+export { default as BookmarkIcon } from './outline/bookmark.svelte';
+export { default as BookmarkAltIcon } from './outline/bookmark-square.svelte';
+export { default as BookmarkAquareIcon } from './outline/bookmark-square.svelte';
+export { default as BookmarkSlashIcon } from './outline/bookmark-slash.svelte';
+export { default as BookOpenIcon } from './outline/book-open.svelte';
+export { default as BriefcaseIcon } from './outline/briefcase.svelte';
+export { default as CalculatorIcon } from './outline/calculator.svelte';
+export { default as CalendarIcon } from './outline/calendar.svelte';
+export { default as CalendarDaysIcon } from './outline/calendar-days.svelte';
+export { default as CameraIcon } from './outline/camera.svelte';
+export { default as CakeIcon } from './outline/cake.svelte';
+export { default as CashIcon } from './outline/cash.svelte';
+export { default as ChartBarIcon } from './outline/chart-bar.svelte';
+export { default as ChartPieIcon } from './outline/chart-pie.svelte';
+export { default as ChartSquareBarIcon } from './outline/chart-bar-square.svelte';
+export { default as ChartBarSquareIcon } from './outline/chart-bar-square.svelte';
+export { default as ChatIcon } from './outline/chat-bubble-oval-left-ellipsis.svelte';
+export { default as ChatBubbleOvalLeftEllipsisIcon } from './outline/chat-bubble-oval-left-ellipsis.svelte';
+export { default as ChatAltIcon } from './outline/chat-bubble-left-ellipsis.svelte';
+export { default as ChatBubbleLeftEllipsisIcon } from './outline/chat-bubble-left-ellipsis.svelte';
+export { default as ChatAlt2Icon } from './outline/chat-bubble-left-right.svelte';
+export { default as ChatBubbleLeftRightIcon } from './outline/chat-bubble-left-right.svelte';
+export { default as ChatBubleBottomCenterIcon } from './outline/chat-bubble-bottom-center.svelte';
+export { default as ChatBubleBottomCenterTextIcon } from './outline/chat-bubble-bottom-center-text.svelte';
+export { default as CheckIcon } from './outline/check.svelte';
+export { default as CheckCircleIcon } from './outline/check-circle.svelte';
+export { default as ChevronDoubleDownIcon } from './outline/chevron-double-down.svelte';
+export { default as ChevronDoubleLeftIcon } from './outline/chevron-double-left.svelte';
+export { default as ChevronDoubleRightIcon } from './outline/chevron-double-right.svelte';
+export { default as ChevronDoubleUpIcon } from './outline/chevron-double-up.svelte';
+export { default as ChevronDownIcon } from './outline/chevron-down.svelte';
+export { default as ChevronLeftIcon } from './outline/chevron-left.svelte';
+export { default as ChevronRightIcon } from './outline/chevron-right.svelte';
+export { default as ChevronUpIcon } from './outline/chevron-up.svelte';
+export { default as ChipIcon } from './outline/cpu-chip.svelte';
+export { default as CpuChipIcon } from './outline/cpu-chip.svelte';
+export { default as ClipboardIcon } from './outline/clipboard.svelte';
+export { default as ClipboardCheckIcon } from './outline/clipboard-document-check.svelte';
+export { default as ClipboardDocumentCheckIcon } from './outline/clipboard-document-check.svelte';
+export { default as ClipboardCopyIcon } from './outline/clipboard-copy.svelte';
+export { default as ClipboardDocumentIcon } from './outline/clipboard-document.svelte';
+export { default as ClipboardListIcon } from './outline/clipboard-document-list.svelte';
+export { default as ClipboardDocumentListIcon } from './outline/clipboard-document-list.svelte';
+export { default as ClockIcon } from './outline/clock.svelte';
+export { default as CloudIcon } from './outline/cloud.svelte';
+export { default as CloudDownloadIcon } from './outline/cloud-arrow-down.svelte';
+export { default as CloudArrowDownIcon } from './outline/cloud-arrow-down.svelte';
+export { default as CloudUploadIcon } from './outline/cloud-arrow-up.svelte';
+export { default as CloudArrowUpIcon } from './outline/cloud-arrow-up.svelte';
+export { default as CodeIcon } from './outline/code-bracket.svelte';
+export { default as CodeBracketIcon } from './outline/code-bracket.svelte';
+export { default as CodeBracketSquareIcon } from './outline/code-bracket-square.svelte';
+export { default as CogIcon } from './outline/cog.svelte';
+export { default as Cog6ToothIcon } from './outline/cog-6-tooth.svelte';
+export { default as Cog8ToothIcon } from './outline/cog-8-tooth.svelte';
+export { default as CollectionIcon } from './outline/collection.svelte';
+export { default as ColorSwatchIcon } from './outline/swatch.svelte';
+export { default as SwatchIcon } from './outline/swatch.svelte';
+export { default as CreditCardIcon } from './outline/credit-card.svelte';
+export { default as CubeIcon } from './outline/cube.svelte';
+export { default as CubeTransparentIcon } from './outline/cube-transparent.svelte';
+export { default as CurrencyBangladeshiIcon } from './outline/currency-bangladeshi.svelte';
+export { default as CurrencyDollarIcon } from './outline/currency-dollar.svelte';
+export { default as CurrencyEuroIcon } from './outline/currency-euro.svelte';
+export { default as CurrencyPoundIcon } from './outline/currency-pound.svelte';
+export { default as CurrencyRupeeIcon } from './outline/currency-rupee.svelte';
+export { default as CurrencyYenIcon } from './outline/currency-yen.svelte';
+export { default as CursorClickIcon } from './outline/cursor-click.svelte';
+export { default as CursorArrowRaysIcon } from './outline/cursor-arrow-rays.svelte';
+export { default as CursorArrowRippleIcon } from './outline/cursor-arrow-ripple.svelte';
+export { default as DatabaseIcon } from './outline/circle-stack.svelte';
+export { default as CircleStackIcon } from './outline/circle-stack.svelte';
+export { default as DesktopComputerIcon } from './outline/computer-desktop.svelte';
+export { default as ComputerDesktopIcon } from './outline/computer-desktop.svelte';
+export { default as DeviceMobileIcon } from './outline/device-phone-mobile.svelte';
+export { default as DevicePhoneMobileIcon } from './outline/device-phone-mobile.svelte';
+export { default as DeviceTabletIcon } from './outline/device-tablet.svelte';
+export { default as DocumentIcon } from './outline/document.svelte';
+export { default as DocumentAddIcon } from './outline/document-plus.svelte';
+export { default as DocumentDownloadIcon } from './outline/document-arrow-down.svelte';
+export { default as DocumentArrowUpIcon } from './outline/document-arrow-up.svelte';
+export { default as DocumentDuplicateIcon } from './outline/document-duplicate.svelte';
+export { default as DocumentChartBarIcon } from './outline/document-chart-bar.svelte';
+export { default as DocumentRemoveIcon } from './outline/document-minus.svelte';
+export { default as DocumentReportIcon } from './outline/document-report.svelte';
+export { default as DocumentSearchIcon } from './outline/document-magnifying-glass.svelte';
+export { default as DocumentMagnifyingGlassIcon } from './outline/document-magnifying-glass.svelte';
+export { default as DocumentTextIcon } from './outline/document-text.svelte';
+export { default as DotsCircleHorizontalIcon } from './outline/ellipsis-horizontal-circle.svelte';
+export { default as EllipsisHorizontalCircleIcon } from './outline/ellipsis-horizontal-circle.svelte';
+export { default as DotsHorizontalIcon } from './outline/ellipsis-horizontal.svelte';
+export { default as EllipsisHorizontalIcon } from './outline/ellipsis-horizontal.svelte';
+export { default as DotsVerticalIcon } from './outline/ellipsis-vertical.svelte';
+export { default as EllipsisVerticalIcon } from './outline/ellipsis-vertical.svelte';
+export { default as DownloadIcon } from './outline/arrow-down-tray.svelte';
+export { default as ArrowDownTrayIcon } from './outline/arrow-down-tray.svelte';
+export { default as DuplicateIcon } from './outline/duplicate.svelte';
+export { default as EmojiHappyIcon } from './outline/face-smile.svelte';
+export { default as FaceSmileIcon } from './outline/face-smile.svelte';
+export { default as FaceFrownIcon } from './outline/face-frown.svelte';
+export { default as EmojiSadIcon } from './outline/face-frown.svelte';
+export { default as ExclamationIcon } from './outline/exclamation-triangle.svelte';
+export { default as ExclamationTriangleIcon } from './outline/exclamation-triangle.svelte';
+export { default as ExclamationCircleIcon } from './outline/exclamation-circle.svelte';
+export { default as ExternalLinkIcon } from './outline/arrow-top-right-on-square.svelte';
+export { default as ArrowTopRightOnSquareIcon } from './outline/arrow-top-right-on-square.svelte';
+export { default as EyeIcon } from './outline/eye.svelte';
+export { default as EyeOffIcon } from './outline/eye-slash.svelte';
+export { default as EyeSlashcon } from './outline/eye-slash.svelte';
+export { default as FastForwardIcon } from './outline/forward.svelte';
+export { default as ForwardIcon } from './outline/forward.svelte';
+export { default as FilmIcon } from './outline/film.svelte';
+export { default as FilterIcon } from './outline/funnel.svelte';
+export { default as FunnelIcon } from './outline/funnel.svelte';
+export { default as FingerPrintIcon } from './outline/finger-print.svelte';
+export { default as FireIcon } from './outline/fire.svelte';
+export { default as FlagIcon } from './outline/flag.svelte';
+export { default as FolderIcon } from './outline/folder.svelte';
+export { default as FolderAddIcon } from './outline/folder-plus.svelte';
+export { default as FolderPlusIcon } from './outline/folder-plus.svelte';
+export { default as FolderDownloadIcon } from './outline/folder-arrow-down.svelte';
+export { default as FolderArrowDownloadIcon } from './outline/folder-arrow-down.svelte';
+export { default as FolderOpenIcon } from './outline/folder-open.svelte';
+export { default as FolderRemoveIcon } from './outline/folder-minus.svelte';
+export { default as FolderMinusIcon } from './outline/folder-minus.svelte';
+export { default as GifIcon } from './outline/gif.svelte';
+export { default as GiftIcon } from './outline/gift.svelte';
+export { default as GiftTopIcon } from './outline/gift-top.svelte';
+export { default as GlobeIcon } from './outline/globe.svelte';
+export { default as GlobeAltIcon } from './outline/globe-alt.svelte';
+export { default as GlobeAmericasIcon } from './outline/globe-americas.svelte';
+export { default as GlobeAsiaAustraliaIcon } from './outline/globe-asia-australia.svelte';
+export { default as GlobeEuropeAfricaIcon } from './outline/globe-europe-africa.svelte';
+export { default as HandIcon } from './outline/hand-raised.svelte';
+export { default as HandRaisedIcon } from './outline/hand-raised.svelte';
+export { default as HastagIcon } from './outline/hashtag.svelte';
+export { default as HashtagIcon } from './outline/hashtag.svelte';
+export { default as HeartIcon } from './outline/heart.svelte';
+export { default as HomeIcon } from './outline/home.svelte';
+export { default as HomeModernIcon } from './outline/home-modern.svelte';
+export { default as IdentificationIcon } from './outline/identification.svelte';
+export { default as InboxIcon } from './outline/inbox.svelte';
+export { default as InboxStackIcon } from './outline/inbox-stack.svelte';
+export { default as InboxInIcon } from './outline/inbox-arrow-down.svelte';
+export { default as InboxArrowDownIcon } from './outline/inbox-arrow-down.svelte';
+export { default as InformationCircleIcon } from './outline/information-circle.svelte';
+export { default as KeyIcon } from './outline/key.svelte';
+export { default as LibraryIcon } from './outline/building-library.svelte';
+export { default as BuildingLibraryIcon } from './outline/building-library.svelte';
+export { default as BuildingOfficeIcon } from './outline/building-office.svelte';
+export { default as BuildingOffice2Icon } from './outline/building-office-2.svelte';
+export { default as BuildingStorefrontIcon } from './outline/building-storefront.svelte';
+export { default as LightBulbIcon } from './outline/light-bulb.svelte';
+export { default as LightningBoltIcon } from './outline/bolt.svelte';
+export { default as BoltIcon } from './outline/bolt.svelte';
+export { default as BoltSlashIcon } from './outline/bolt-slash.svelte';
+export { default as LinkIcon } from './outline/link.svelte';
+export { default as LocationMarkerIcon } from './outline/map-pin.svelte';
+export { default as MapPinIcon } from './outline/map-pin.svelte';
+export { default as LockClosedIcon } from './outline/lock-closed.svelte';
+export { default as LockOpenIcon } from './outline/lock-open.svelte';
+export { default as LoginIcon } from './outline/arrow-left-on-rectangle.svelte';
+export { default as ArrowLeftOnRectangleIcon } from './outline/arrow-left-on-rectangle.svelte';
+export { default as LogoutIcon } from './outline/arrow-right-on-rectangle.svelte';
+export { default as ArrowRightOnRectangleIcon } from './outline/arrow-right-on-rectangle.svelte';
+export { default as MailIcon } from './outline/envelope.svelte';
+export { default as EnvelopeIcon } from './outline/envelope.svelte';
+export { default as MailOpenIcon } from './outline/envelope-open.svelte';
+export { default as EnvelopeOpenIcon } from './outline/envelope-open.svelte';
+export { default as MapIcon } from './outline/map.svelte';
+export { default as MegaphoneIcon } from './outline/megaphone.svelte';
+export { default as MenuIcon } from './outline/bars-3.svelte';
+export { default as Bars3Icon } from './outline/bars-3.svelte';
+export { default as MenuAlt1Icon } from './outline/bars-3-center-left.svelte';
+export { default as Bars3CenterLeftIcon } from './outline/bars-3-center-left.svelte';
+export { default as MenuAlt2Icon } from './outline/bars-3-bottom-left.svelte';
+export { default as MenuAlt3Icon } from './outline/bars-3-bottom-right.svelte';
+export { default as Bars3BottomRightIcon } from './outline/bars-3-bottom-right.svelte';
+export { default as MenuAlt4Icon } from './outline/bars-2.svelte';
+export { default as Bars2Icon } from './outline/bars-2.svelte';
+export { default as MicrophoneIcon } from './outline/microphone.svelte';
+export { default as MinusIcon } from './outline/minus.svelte';
+export { default as MinusCircleIcon } from './outline/minus-circle.svelte';
+export { default as MinusSmIcon } from './outline/minus-sm.svelte';
+export { default as MoonIcon } from './outline/moon.svelte';
+export { default as MusicNoteIcon } from './outline/musical-note.svelte';
+export { default as MusicalNoteIcon } from './outline/musical-note.svelte';
+export { default as NewspaperIcon } from './outline/newspaper.svelte';
+export { default as OfficeBuildingIcon } from './outline/office-building.svelte';
+export { default as PaperAirplaneIcon } from './outline/paper-airplane.svelte';
+export { default as PaperClipIcon } from './outline/paper-clip.svelte';
+export { default as PauseIcon } from './outline/pause.svelte';
+export { default as PencilIcon } from './outline/pencil.svelte';
+export { default as PencilAltIcon } from './outline/pencil-square.svelte';
+export { default as PencilSquareIcon } from './outline/pencil-square.svelte';
+export { default as PhoneIcon } from './outline/phone.svelte';
+export { default as PhoneIncomingIcon } from './outline/phone-arrow-down-left.svelte';
+export { default as PhoneArrowDownLeftIcon } from './outline/phone-arrow-down-left.svelte';
+export { default as PhoneMissedCallIcon } from './outline/phone-x-mark.svelte';
+export { default as PhoneXMarkIcon } from './outline/phone-x-mark.svelte';
+export { default as PhoneOutgoingIcon } from './outline/phone-arrow-up-right.svelte';
+export { default as PhoneArrowUpRightIcon } from './outline/phone-arrow-up-right.svelte';
+export { default as PhotographIcon } from './outline/photo.svelte';
+export { default as PhotoIcon } from './outline/photo.svelte';
+export { default as PlayIcon } from './outline/play.svelte';
+export { default as PlusIcon } from './outline/plus.svelte';
+export { default as PlusCircleIcon } from './outline/plus-circle.svelte';
+export { default as PlusSmIcon } from './outline/plus-sm.svelte';
+export { default as PresentationChartBarIcon } from './outline/presentation-chart-bar.svelte';
+export { default as PresentationChartLineIcon } from './outline/presentation-chart-line.svelte';
+export { default as PrinterIcon } from './outline/printer.svelte';
+export { default as PuzzleIcon } from './outline/puzzle-piece.svelte';
+export { default as PuzzlePieceIcon } from './outline/puzzle-piece.svelte';
+export { default as QrcodeIcon } from './outline/qr-code.svelte';
+export { default as QrCodeIcon } from './outline/qr-code.svelte';
+export { default as QuestionMarkCircleIcon } from './outline/question-mark-circle.svelte';
+export { default as QueueListIcon } from './outline/queue-list.svelte';
+export { default as RadioIcon } from './outline/radio.svelte';
+export { default as RectangleGroupIcon } from './outline/rectangle-group.svelte';
+export { default as RectangleStackIcon } from './outline/rectangle-stack.svelte';
+export { default as ReceiptRefundIcon } from './outline/receipt-refund.svelte';
+export { default as ReceiptTaxIcon } from './outline/receipt-percent.svelte';
+export { default as ReceiptPercentIcon } from './outline/receipt-percent.svelte';
+export { default as RefreshIcon } from './outline/arrow-path.svelte';
+export { default as ArrowPathIcon } from './outline/arrow-path.svelte';
+export { default as ReplyIcon } from './outline/reply.svelte';
+export { default as RewindIcon } from './outline/backward.svelte';
+export { default as BackwardIcon } from './outline/backward.svelte';
+export { default as BankNotesIcon } from './outline/banknotes.svelte';
+export { default as RssIcon } from './outline/rss.svelte';
+export { default as SaveIcon } from './outline/save.svelte';
+export { default as SaveAsIcon } from './outline/save-as.svelte';
+export { default as ScaleIcon } from './outline/scale.svelte';
+export { default as ScissorsIcon } from './outline/scissors.svelte';
+export { default as SearchIcon } from './outline/magnifying-glass.svelte';
+export { default as MagnifyingGlassIcon } from './outline/magnifying-glass.svelte';
+export { default as SearchCircleIcon } from './outline/search-circle.svelte';
+export { default as SelectorIcon } from './outline/chevron-up-down.svelte';
+export { default as ChevronUpDownIcon } from './outline/chevron-up-down.svelte';
+export { default as ServerIcon } from './outline/server.svelte';
+export { default as ServerStackIcon } from './outline/server-stack.svelte';
+export { default as SignalIcon } from './outline/signal.svelte';
+export { default as SignalSlashIcon } from './outline/signal-slash.svelte';
+export { default as ShareIcon } from './outline/share.svelte';
+export { default as ShieldCheckIcon } from './outline/shield-check.svelte';
+export { default as ShieldExclamationIcon } from './outline/shield-exclamation.svelte';
+export { default as ShoppingBagIcon } from './outline/shopping-bag.svelte';
+export { default as ShoppingCartIcon } from './outline/shopping-cart.svelte';
+export { default as SortAscendingIcon } from './outline/bars-arrow-up.svelte';
+export { default as BarsArrowUpIcon } from './outline/bars-arrow-up.svelte';
+export { default as SortDescendingIcon } from './outline/bars-arrow-down.svelte';
+export { default as BarsArrowDownIcon } from './outline/bars-arrow-down.svelte';
+export { default as SparklesIcon } from './outline/sparkles.svelte';
+export { default as SpeakerPhoneIcon } from './outline/speaker-phone.svelte';
+export { default as StarIcon } from './outline/star.svelte';
+export { default as StatusOfflineIcon } from './outline/status-offline.svelte';
+export { default as StatusOnlineIcon } from './outline/status-online.svelte';
+export { default as StopIcon } from './outline/stop.svelte';
+export { default as SunIcon } from './outline/sun.svelte';
+export { default as SupportIcon } from './outline/lifebuoy.svelte';
+export { default as LifebuoyIcon } from './outline/lifebuoy.svelte';
+export { default as SwitchHorizontalIcon } from './outline/arrows-right-left.svelte';
+export { default as ArrowsRightLeftIcon } from './outline/arrows-right-left.svelte';
+export { default as SwitchVerticalIcon } from './outline/arrows-up-down.svelte';
+export { default as ArrowsUpDownIcon } from './outline/arrows-up-down.svelte';
+export { default as TableIcon } from './outline/table-cells.svelte';
+export { default as TableCellsIcon } from './outline/table-cells.svelte';
+export { default as TagIcon } from './outline/tag.svelte';
+export { default as ListBulletIcon } from './outline/list-bullet.svelte';
+export { default as TemplateIcon } from './outline/template.svelte';
+export { default as TerminalIcon } from './outline/command-line.svelte';
+export { default as CommandLineIcon } from './outline/command-line.svelte';
+export { default as ThumbDownIcon } from './outline/hand-thumb-down.svelte';
+export { default as HandThumbDownIcon } from './outline/hand-thumb-down.svelte';
+export { default as ThumbUpIcon } from './outline/hand-thumb-up.svelte';
+export { default as HandThumbUpIcon } from './outline/hand-thumb-up.svelte';
+export { default as TicketIcon } from './outline/ticket.svelte';
+export { default as TranslateIcon } from './outline/language.svelte';
+export { default as LanguageIcon } from './outline/language.svelte';
+export { default as TrashIcon } from './outline/trash.svelte';
+export { default as TrendingDownIcon } from './outline/arrow-trending-down.svelte';
+export { default as ArrowTrendingDownIcon } from './outline/arrow-trending-down.svelte';
+export { default as TrendingUpIcon } from './outline/arrow-trending-up.svelte';
+export { default as ArrowTrendingUpIcon } from './outline/arrow-trending-up.svelte';
+export { default as TruckIcon } from './outline/truck.svelte';
+export { default as UploadIcon } from './outline/arrow-up-tray.svelte';
+export { default as ArrowUpTrayIcon } from './outline/arrow-up-tray.svelte';
+export { default as UserIcon } from './outline/user.svelte';
+export { default as UserAddIcon } from './outline/user-plus.svelte';
+export { default as UserPlusIcon } from './outline/user-plus.svelte';
+export { default as UserCircleIcon } from './outline/user-circle.svelte';
+export { default as UserGroupIcon } from './outline/user-group.svelte';
+export { default as UserRemoveIcon } from './outline/user-minus.svelte';
+export { default as UserMinusIcon } from './outline/user-minus.svelte';
+export { default as UsersIcon } from './outline/users.svelte';
+export { default as VariableIcon } from './outline/variable.svelte';
+export { default as VideoCameraIcon } from './outline/video-camera.svelte';
+export { default as VideoCameraSlashIcon } from './outline/video-camera-slash.svelte';
+export { default as WrenchIcon } from './outline/wrench.svelte';
+export { default as WrenchScrewdriverIcon } from './outline/wrench-screwdriver.svelte';
+export { default as ViewBoardsIcon } from './outline/view-columns.svelte';
+export { default as ViewColumnsIcon } from './outline/view-columns.svelte';
+export { default as Square2StackIcon } from './outline/square-2-stack.svelte';
+export { default as ViewGridIcon } from './outline/squares-2x2.svelte';
+export { default as Squares2x2Icon } from './outline/squares-2x2.svelte';
+export { default as ViewGridAddIcon } from './outline/squares-plus.svelte';
+export { default as SquarePlusIcon } from './outline/squares-plus.svelte';
+export { default as ViewListIcon } from './outline/bars-4.svelte';
+export { default as Bars4Icon } from './outline/bars-4.svelte';
+export { default as VolumeOffIcon } from './outline/speaker-x-mark.svelte';
+export { default as SpeakerXMarkIcon } from './outline/speaker-x-mark.svelte';
+export { default as VolumeUpIcon } from './outline/speaker-wave.svelte';
+export { default as SpeakerWafeIcon } from './outline/speaker-wave.svelte';
+export { default as WifiIcon } from './outline/wifi.svelte';
+export { default as XIcon } from './outline/x-mark.svelte';
+export { default as XMarkIcon } from './outline/x-mark.svelte';
+export { default as XCircleIcon } from './outline/x-circle.svelte';
+export { default as MagnifyingGlassCircleIcon } from './outline/magnifying-glass-circle.svelte';
+export { default as ZoomInIcon } from './outline/magnifying-glass-plus.svelte';
+export { default as MagnifyingGlassPlusIcon } from './outline/magnifying-glass-plus.svelte';
+export { default as ZoomOutIcon } from './outline/magnifying-glass-minus.svelte';
+export { default as MagnifyingGlassMinusIcon } from './outline/magnifying-glass-minus.svelte';
 // solid
-export {default as AcademicCapSolidIcon}  from './icons-solid/AcademicCap.svelte'
-export {default as AdjustmentsSolidIcon}  from './icons-solid/Adjustments.svelte'
-export {default as AnnotationSolidIcon}  from './icons-solid/Annotation.svelte'
-export {default as ArchiveSolidIcon}  from './icons-solid/Archive.svelte'
-export {default as ArrowCircleDownSolidIcon}  from './icons-solid/ArrowCircleDown.svelte'
-export {default as ArrowCircleLeftSolidIcon}  from './icons-solid/ArrowCircleLeft.svelte'
-export {default as ArrowCircleRightSolidIcon}  from './icons-solid/ArrowCircleRight.svelte'
-export {default as ArrowCircleUpSolidIcon}  from './icons-solid/ArrowCircleUp.svelte'
-export {default as ArrowDownSolidIcon}  from './icons-solid/ArrowDown.svelte'
-export {default as ArrowsExpandSolidIcon}  from './icons-solid/ArrowsExpand.svelte'
-export {default as ArrowLeftSolidIcon}  from './icons-solid/ArrowLeft.svelte'
-export {default as ArrowNarrowDownSolidIcon}  from './icons-solid/ArrowNarrowDown.svelte'
-export {default as ArrowNarrowLeftSolidIcon}  from './icons-solid/ArrowNarrowLeft.svelte'
-export {default as ArrowNarrowRightSolidIcon}  from './icons-solid/ArrowNarrowRight.svelte'
-export {default as ArrowNarrowUpSolidIcon}  from './icons-solid/ArrowNarrowUp.svelte'
-export {default as ArrowRightSolidIcon}  from './icons-solid/ArrowRight.svelte'
-export {default as ArrowSmDownSolidIcon}  from './icons-solid/ArrowSmDown.svelte'
-export {default as ArrowSmLeftSolidIcon}  from './icons-solid/ArrowSmLeft.svelte'
-export {default as ArrowSmRightSolidIcon}  from './icons-solid/ArrowSmRight.svelte'
-export {default as ArrowSmUpSolidIcon}  from './icons-solid/ArrowSmUp.svelte'
-export {default as ArrowUpSolidIcon}  from './icons-solid/ArrowUp.svelte'
-export {default as AtSymbolSolidIcon}  from './icons-solid/AtSymbol.svelte'
-export {default as BackspaceSolidIcon}  from './icons-solid/Backspace.svelte'
-export {default as BadgeCheckSolidIcon}  from './icons-solid/BadgeCheck.svelte'
-export {default as BanSolidIcon}  from './icons-solid/Ban.svelte'
-export {default as BeakerSolidIcon}  from './icons-solid/Beaker.svelte'
-export {default as BellSolidIcon}  from './icons-solid/Bell.svelte'
-export {default as BookmarkSolidIcon}  from './icons-solid/Bookmark.svelte'
-export {default as BookmarkAltSolidIcon}  from './icons-solid/BookmarkAlt.svelte'
-export {default as BookOpenSolidIcon}  from './icons-solid/BookOpen.svelte'
-export {default as BriefcaseSolidIcon}  from './icons-solid/Briefcase.svelte'
-export {default as CalculatorSolidIcon}  from './icons-solid/Calculator.svelte'
-export {default as CalendarSolidIcon}  from './icons-solid/Calendar.svelte'
-export {default as CameraSolidIcon}  from './icons-solid/Camera.svelte'
-export {default as CakeSolidIcon}  from './icons-solid/Cake.svelte'
-export {default as CashSolidIcon}  from './icons-solid/Cash.svelte'
-export {default as ChartBarSolidIcon}  from './icons-solid/ChartBar.svelte'
-export {default as ChartPieSolidIcon}  from './icons-solid/ChartPie.svelte'
-export {default as ChartSquareBarSolidIcon}  from './icons-solid/ChartSquareBar.svelte'
-export {default as ChatSolidIcon}  from './icons-solid/Chat.svelte'
-export {default as ChatAltSolidIcon}  from './icons-solid/ChatAlt.svelte'
-export {default as ChatAlt2SolidIcon}  from './icons-solid/ChatAlt2.svelte'
-export {default as CheckSolidIcon}  from './icons-solid/Check.svelte'
-export {default as CheckCircleSolidIcon}  from './icons-solid/CheckCircle.svelte'
-export {default as ChevronDoubleDownSolidIcon}  from './icons-solid/ChevronDoubleDown.svelte'
-export {default as ChevronDoubleLeftSolidIcon}  from './icons-solid/ChevronDoubleLeft.svelte'
-export {default as ChevronDoubleRightSolidIcon}  from './icons-solid/ChevronDoubleRight.svelte'
-export {default as ChevronDoubleUpSolidIcon}  from './icons-solid/ChevronDoubleUp.svelte'
-export {default as ChevronDownSolidIcon}  from './icons-solid/ChevronDown.svelte'
-export {default as ChevronLeftSolidIcon}  from './icons-solid/ChevronLeft.svelte'
-export {default as ChevronRightSolidIcon}  from './icons-solid/ChevronRight.svelte'
-export {default as ChevronUpSolidIcon}  from './icons-solid/ChevronUp.svelte'
-export {default as ChipSolidIcon}  from './icons-solid/Chip.svelte'
-export {default as ClipboardSolidIcon}  from './icons-solid/Clipboard.svelte'
-export {default as ClipboardCheckSolidIcon}  from './icons-solid/ClipboardCheck.svelte'
-export {default as ClipboardCopySolidIcon}  from './icons-solid/ClipboardCopy.svelte'
-export {default as ClipboardListSolidIcon}  from './icons-solid/ClipboardList.svelte'
-export {default as ClockSolidIcon}  from './icons-solid/Clock.svelte'
-export {default as CloudSolidIcon}  from './icons-solid/Cloud.svelte'
-export {default as CloudDownloadSolidIcon}  from './icons-solid/CloudDownload.svelte'
-export {default as CloudUploadSolidIcon}  from './icons-solid/CloudUpload.svelte'
-export {default as CodeSolidIcon}  from './icons-solid/Code.svelte'
-export {default as CogSolidIcon}  from './icons-solid/Cog.svelte'
-export {default as CollectionSolidIcon}  from './icons-solid/Collection.svelte'
-export {default as ColorSwatchSolidIcon}  from './icons-solid/ColorSwatch.svelte'
-export {default as CreditCardSolidIcon}  from './icons-solid/CreditCard.svelte'
-export {default as CubeSolidIcon}  from './icons-solid/Cube.svelte'
-export {default as CubeTransparentSolidIcon}  from './icons-solid/CubeTransparent.svelte'
-export {default as CurrencyBangladeshiSolidIcon}  from './icons-solid/CurrencyBangladeshi.svelte'
-export {default as CurrencyDollarSolidIcon}  from './icons-solid/CurrencyDollar.svelte'
-export {default as CurrencyEuroSolidIcon}  from './icons-solid/CurrencyEuro.svelte'
-export {default as CurrencyPoundSolidIcon}  from './icons-solid/CurrencyPound.svelte'
-export {default as CurrencyRupeeSolidIcon}  from './icons-solid/CurrencyRupee.svelte'
-export {default as CurrencyYenSolidIcon}  from './icons-solid/CurrencyYen.svelte'
-export {default as CursorClickSolidIcon}  from './icons-solid/CursorClick.svelte'
-export {default as DatabaseSolidIcon}  from './icons-solid/Database.svelte'
-export {default as DesktopComputerSolidIcon}  from './icons-solid/DesktopComputer.svelte'
-export {default as DeviceMobileSolidIcon}  from './icons-solid/DeviceMobile.svelte'
-export {default as DeviceTabletSolidIcon}  from './icons-solid/DeviceTablet.svelte'
-export {default as DocumentSolidIcon}  from './icons-solid/Document.svelte'
-export {default as DocumentAddSolidIcon}  from './icons-solid/DocumentAdd.svelte'
-export {default as DocumentDownloadSolidIcon}  from './icons-solid/DocumentDownload.svelte'
-export {default as DocumentDuplicateSolidIcon}  from './icons-solid/DocumentDuplicate.svelte'
-export {default as DocumentRemoveSolidIcon}  from './icons-solid/DocumentRemove.svelte'
-export {default as DocumentReportSolidIcon}  from './icons-solid/DocumentReport.svelte'
-export {default as DocumentSearchSolidIcon}  from './icons-solid/DocumentSearch.svelte'
-export {default as DocumentTextSolidIcon}  from './icons-solid/DocumentText.svelte'
-export {default as DotsCircleHorizontalSolidIcon}  from './icons-solid/DotsCircleHorizontal.svelte'
-export {default as DotsHorizontalSolidIcon}  from './icons-solid/DotsHorizontal.svelte'
-export {default as DotsVerticalSolidIcon}  from './icons-solid/DotsVertical.svelte'
-export {default as DownloadSolidIcon}  from './icons-solid/Download.svelte'
-export {default as DuplicateSolidIcon}  from './icons-solid/Duplicate.svelte'
-export {default as EmojiHappySolidIcon}  from './icons-solid/EmojiHappy.svelte'
-export {default as EmojiSadSolidIcon}  from './icons-solid/EmojiSad.svelte'
-export {default as ExclamationSolidIcon}  from './icons-solid/Exclamation.svelte'
-export {default as ExclamationCircleSolidIcon}  from './icons-solid/ExclamationCircle.svelte'
-export {default as ExternalLinkSolidIcon}  from './icons-solid/ExternalLink.svelte'
-export {default as EyeSolidIcon}  from './icons-solid/Eye.svelte'
-export {default as EyeOffSolidIcon}  from './icons-solid/EyeOff.svelte'
-export {default as FastForwardSolidIcon}  from './icons-solid/FastForward.svelte'
-export {default as FilmSolidIcon}  from './icons-solid/Film.svelte'
-export {default as FilterSolidIcon}  from './icons-solid/Filter.svelte'
-export {default as FingerPrintSolidIcon}  from './icons-solid/FingerPrint.svelte'
-export {default as FireSolidIcon}  from './icons-solid/Fire.svelte'
-export {default as FlagSolidIcon}  from './icons-solid/Flag.svelte'
-export {default as FolderSolidIcon}  from './icons-solid/Folder.svelte'
-export {default as FolderAddSolidIcon}  from './icons-solid/FolderAdd.svelte'
-export {default as FolderDownloadSolidIcon}  from './icons-solid/FolderDownload.svelte'
-export {default as FolderOpenSolidIcon}  from './icons-solid/FolderOpen.svelte'
-export {default as FolderRemoveSolidIcon}  from './icons-solid/FolderRemove.svelte'
-export {default as GiftSolidIcon}  from './icons-solid/Gift.svelte'
-export {default as GlobeSolidIcon}  from './icons-solid/Globe.svelte'
-export {default as GlobeAltSolidIcon}  from './icons-solid/GlobeAlt.svelte'
-export {default as HandSolidIcon}  from './icons-solid/Hand.svelte'
-export {default as HastagSolidIcon}  from './icons-solid/Hastag.svelte'
-export {default as HeartSolidIcon}  from './icons-solid/Heart.svelte'
-export {default as HomeSolidIcon}  from './icons-solid/Home.svelte'
-export {default as IdentificationSolidIcon}  from './icons-solid/Identification.svelte'
-export {default as InboxSolidIcon}  from './icons-solid/Inbox.svelte'
-export {default as InboxInSolidIcon}  from './icons-solid/InboxIn.svelte'
-export {default as InformationCircleSolidIcon}  from './icons-solid/InformationCircle.svelte'
-export {default as KeySolidIcon}  from './icons-solid/Key.svelte'
-export {default as LibrarySolidIcon}  from './icons-solid/Library.svelte'
-export {default as LightBulbSolidIcon}  from './icons-solid/LightBulb.svelte'
-export {default as LightningBoltSolidIcon}  from './icons-solid/LightningBolt.svelte'
-export {default as LinkSolidIcon}  from './icons-solid/Link.svelte'
-export {default as LocationMarkerSolidIcon}  from './icons-solid/LocationMarker.svelte'
-export {default as LockClosedSolidIcon}  from './icons-solid/LockClosed.svelte'
-export {default as LockOpenSolidIcon}  from './icons-solid/LockOpen.svelte'
-export {default as LoginSolidIcon}  from './icons-solid/Login.svelte'
-export {default as LogoutSolidIcon}  from './icons-solid/Logout.svelte'
-export {default as MailSolidIcon}  from './icons-solid/Mail.svelte'
-export {default as MailOpenSolidIcon}  from './icons-solid/MailOpen.svelte'
-export {default as MapSolidIcon}  from './icons-solid/Map.svelte'
-export {default as MenuSolidIcon}  from './icons-solid/Menu.svelte'
-export {default as MenuAlt1SolidIcon}  from './icons-solid/MenuAlt1.svelte'
-export {default as MenuAlt2SolidIcon}  from './icons-solid/MenuAlt2.svelte'
-export {default as MenuAlt3SolidIcon}  from './icons-solid/MenuAlt3.svelte'
-export {default as MenuAlt4SolidIcon}  from './icons-solid/MenuAlt4.svelte'
-export {default as MicrophoneSolidIcon}  from './icons-solid/Microphone.svelte'
-export {default as MinusSolidIcon}  from './icons-solid/Minus.svelte'
-export {default as MinusCircleSolidIcon}  from './icons-solid/MinusCircle.svelte'
-export {default as MinusSmSolidIcon}  from './icons-solid/MinusSm.svelte'
-export {default as MoonSolidIcon}  from './icons-solid/Moon.svelte'
-export {default as MusicNoteSolidIcon}  from './icons-solid/MusicNote.svelte'
-export {default as NewspaperSolidIcon}  from './icons-solid/Newspaper.svelte'
-export {default as OfficeBuildingSolidIcon}  from './icons-solid/OfficeBuilding.svelte'
-export {default as PaperAirplaneSolidIcon}  from './icons-solid/PaperAirplane.svelte'
-export {default as PaperClipSolidIcon}  from './icons-solid/PaperClip.svelte'
-export {default as PauseSolidIcon}  from './icons-solid/Pause.svelte'
-export {default as PencilSolidIcon}  from './icons-solid/Pencil.svelte'
-export {default as PencilAltSolidIcon}  from './icons-solid/PencilAlt.svelte'
-export {default as PhoneSolidIcon}  from './icons-solid/Phone.svelte'
-export {default as PhoneIncomingSolidIcon}  from './icons-solid/PhoneIncoming.svelte'
-export {default as PhoneMissedCallSolidIcon}  from './icons-solid/PhoneMissedCall.svelte'
-export {default as PhoneOutgoingSolidIcon}  from './icons-solid/PhoneOutgoing.svelte'
-export {default as PhotographSolidIcon}  from './icons-solid/Photograph.svelte'
-export {default as PlaySolidIcon}  from './icons-solid/Play.svelte'
-export {default as PlusSolidIcon}  from './icons-solid/Plus.svelte'
-export {default as PlusCircleSolidIcon}  from './icons-solid/PlusCircle.svelte'
-export {default as PlusSmSolidIcon}  from './icons-solid/PlusSm.svelte'
-export {default as PresentationChartBarSolidIcon}  from './icons-solid/PresentationChartBar.svelte'
-export {default as PresentationChartLineSolidIcon}  from './icons-solid/PresentationChartLine.svelte'
-export {default as PrinterSolidIcon}  from './icons-solid/Printer.svelte'
-export {default as PuzzleSolidIcon}  from './icons-solid/Puzzle.svelte'
-export {default as QrcodeSolidIcon}  from './icons-solid/Qrcode.svelte'
-export {default as QuestionMarkCircleSolidIcon}  from './icons-solid/QuestionMarkCircle.svelte'
-export {default as ReceiptRefundSolidIcon}  from './icons-solid/ReceiptRefund.svelte'
-export {default as ReceiptTaxSolidIcon}  from './icons-solid/ReceiptTax.svelte'
-export {default as RefreshSolidIcon}  from './icons-solid/Refresh.svelte'
-export {default as ReplySolidIcon}  from './icons-solid/Reply.svelte'
-export {default as RewindSolidIcon}  from './icons-solid/Rewind.svelte'
-export {default as RssSolidIcon}  from './icons-solid/Rss.svelte'
-export {default as SaveSolidIcon}  from './icons-solid/Save.svelte'
-export {default as SaveAsSolidIcon}  from './icons-solid/SaveAs.svelte'
-export {default as ScaleSolidIcon}  from './icons-solid/Scale.svelte'
-export {default as ScissorsSolidIcon}  from './icons-solid/Scissors.svelte'
-export {default as SearchSolidIcon}  from './icons-solid/Search.svelte'
-export {default as SearchCircleSolidIcon}  from './icons-solid/SearchCircle.svelte'
-export {default as SelectorSolidIcon}  from './icons-solid/Selector.svelte'
-export {default as ServerSolidIcon}  from './icons-solid/Server.svelte'
-export {default as ShareSolidIcon}  from './icons-solid/Share.svelte'
-export {default as ShieldCheckSolidIcon}  from './icons-solid/ShieldCheck.svelte'
-export {default as ShieldExclamationSolidIcon}  from './icons-solid/ShieldExclamation.svelte'
-export {default as ShoppingBagSolidIcon}  from './icons-solid/ShoppingBag.svelte'
-export {default as ShoppingCartSolidIcon}  from './icons-solid/ShoppingCart.svelte'
-export {default as SortAscendingSolidIcon}  from './icons-solid/SortAscending.svelte'
-export {default as SortDescendingSolidIcon}  from './icons-solid/SortDescending.svelte'
-export {default as SparklesSolidIcon}  from './icons-solid/Sparkles.svelte'
-export {default as SpeakerPhoneSolidIcon}  from './icons-solid/SpeakerPhone.svelte'
-export {default as StarSolidIcon}  from './icons-solid/Star.svelte'
-export {default as StatusOfflineSolidIcon}  from './icons-solid/StatusOffline.svelte'
-export {default as StatusOnlineSolidIcon}  from './icons-solid/StatusOnline.svelte'
-export {default as StopSolidIcon}  from './icons-solid/Stop.svelte'
-export {default as SunSolidIcon}  from './icons-solid/Sun.svelte'
-export {default as SupportSolidIcon}  from './icons-solid/Support.svelte'
-export {default as SwitchHorizontalSolidIcon}  from './icons-solid/SwitchHorizontal.svelte'
-export {default as SwitchVerticalSolidIcon}  from './icons-solid/SwitchVertical.svelte'
-export {default as TableSolidIcon}  from './icons-solid/Table.svelte'
-export {default as TagSolidIcon}  from './icons-solid/Tag.svelte'
-export {default as TemplateSolidIcon}  from './icons-solid/Template.svelte'
-export {default as TerminalSolidIcon}  from './icons-solid/Terminal.svelte'
-export {default as ThumbDownSolidIcon}  from './icons-solid/ThumbDown.svelte'
-export {default as ThumbUpSolidIcon}  from './icons-solid/ThumbUp.svelte'
-export {default as TicketSolidIcon}  from './icons-solid/Ticket.svelte'
-export {default as TranslateSolidIcon}  from './icons-solid/Translate.svelte'
-export {default as TrashSolidIcon}  from './icons-solid/Trash.svelte'
-export {default as TrendingDownSolidIcon}  from './icons-solid/TrendingDown.svelte'
-export {default as TrendingUpSolidIcon}  from './icons-solid/TrendingUp.svelte'
-export {default as TruckSolidIcon}  from './icons-solid/Truck.svelte'
-export {default as UploadSolidIcon}  from './icons-solid/Upload.svelte'
-export {default as UserSolidIcon}  from './icons-solid/User.svelte'
-export {default as UserAddSolidIcon}  from './icons-solid/UserAdd.svelte'
-export {default as UserCircleSolidIcon}  from './icons-solid/UserCircle.svelte'
-export {default as UserGroupSolidIcon}  from './icons-solid/UserGroup.svelte'
-export {default as UserRemoveSolidIcon}  from './icons-solid/UserRemove.svelte'
-export {default as UsersSolidIcon}  from './icons-solid/Users.svelte'
-export {default as VariableSolidIcon}  from './icons-solid/Variable.svelte'
-export {default as VideoCameraSolidIcon}  from './icons-solid/VideoCamera.svelte'
-export {default as ViewBoardsSolidIcon}  from './icons-solid/ViewBoards.svelte'
-export {default as ViewGridSolidIcon}  from './icons-solid/ViewGrid.svelte'
-export {default as ViewGridAddSolidIcon}  from './icons-solid/ViewGridAdd.svelte'
-export {default as ViewListSolidIcon}  from './icons-solid/ViewList.svelte'
-export {default as VolumeOffSolidIcon}  from './icons-solid/VolumeOff.svelte'
-export {default as VolumeUpSolidIcon}  from './icons-solid/VolumeUp.svelte'
-export {default as WifiSolidIcon}  from './icons-solid/Wifi.svelte'
-export {default as XSolidIcon}  from './icons-solid/X.svelte'
-export {default as XCircleSolidIcon}  from './icons-solid/XCircle.svelte'
-export {default as ZoomInSolidIcon}  from './icons-solid/ZoomIn.svelte'
-export {default as ZoomOutSolidIcon}  from './icons-solid/ZoomOut.svelte'
+export { default as AcademicCapSolidIcon } from './solid/academic-cap.svelte';
+export { default as AdjustmentsSolidIcon } from './solid/adjustments-horizontal.svelte';
+export { default as AdjustmentsHorizontalSolidIcon } from './solid/adjustments-horizontal.svelte';
+export { default as AdjustmentsVerticalSolidIcon } from './solid/adjustments-vertical.svelte';
+export { default as AnnotationSolidIcon } from './solid/annotation.svelte';
+export { default as ArchiveSolidIcon } from './solid/archive-box.svelte';
+export { default as ArchiveBoxSolidIcon } from './solid/archive-box.svelte';
+export { default as ArchiveBoxArrowDownSolidIcon } from './solid/archive-box-arrow-down.svelte';
+export { default as ArchiveBoxXMarkSolidIcon } from './solid/archive-box-x-mark.svelte';
+export { default as ArrowCircleDownSolidIcon } from './solid/arrow-down-circle.svelte';
+export { default as ArrowDownCircleSolidIcon } from './solid/arrow-down-circle.svelte';
+export { default as ArrowDownLeftSolidIcon } from './solid/arrow-down-left.svelte';
+export { default as ArrowDownOnSquareSolidIcon } from './solid/arrow-down-on-square.svelte';
+export { default as ArrowDownOnSquareStackSolidIcon } from './solid/arrow-down-on-square-stack.svelte';
+export { default as ArrowCircleLeftSolidIcon } from './solid/arrow-left-circle.svelte';
+export { default as ArrowLeftCircleSolidIcon } from './solid/arrow-left-circle.svelte';
+export { default as ArrowCircleRightSolidIcon } from './solid/arrow-right-circle.svelte';
+export { default as ArrowRightCircleSolidIcon } from './solid/arrow-right-circle.svelte';
+export { default as ArrowCircleUpSolidIcon } from './solid/arrow-up-circle.svelte';
+export { default as ArrowUpCircleSolidIcon } from './solid/arrow-up-circle.svelte';
+export { default as ArrowDownSolidIcon } from './solid/arrow-down.svelte';
+export { default as ArrowUpLeftSolidIcon } from './solid/arrow-up-left.svelte';
+export { default as ArrowDownRightSolidIcon } from './solid/arrow-down-right.svelte';
+export { default as ArrowsExpandSolidIcon } from './solid/arrows-pointing-out.svelte';
+export { default as ArrowsPontingOutSolidIcon } from './solid/arrows-pointing-out.svelte';
+export { default as ArrowLeftSolidIcon } from './solid/arrow-left.svelte';
+export { default as ArrowNarrowDownSolidIcon } from './solid/arrow-long-down.svelte';
+export { default as ArrowLongDownSolidIcon } from './solid/arrow-long-down.svelte';
+export { default as ArrowNarrowLeftSolidIcon } from './solid/arrow-long-left.svelte';
+export { default as ArrowLongLeftSolidIcon } from './solid/arrow-long-left.svelte';
+export { default as ArrowNarrowRightSolidIcon } from './solid/arrow-long-right.svelte';
+export { default as ArrowLongRightSolidIcon } from './solid/arrow-long-right.svelte';
+export { default as ArrowNarrowUpSolidIcon } from './solid/arrow-long-up.svelte';
+export { default as ArrowLongUpSolidIcon } from './solid/arrow-long-up.svelte';
+export { default as ArrowRightSolidIcon } from './solid/arrow-right.svelte';
+export { default as ArrowSmDownSolidIcon } from './solid/arrow-sm-down.svelte';
+export { default as ArrowSmLeftSolidIcon } from './solid/arrow-sm-left.svelte';
+export { default as ArrowSmRightSolidIcon } from './solid/arrow-sm-right.svelte';
+export { default as ArrowSmUpSolidIcon } from './solid/arrow-sm-up.svelte';
+export { default as ArrowUpSolidIcon } from './solid/arrow-up.svelte';
+export { default as ArrowsPointingInSolidIcon } from './solid/arrows-pointing-in.svelte';
+export { default as ArrowsPointingOutSolidIcon } from './solid/arrows-pointing-out.svelte';
+export { default as AtSymbolSolidIcon } from './solid/at-symbol.svelte';
+export { default as ArrowUturnDownSolidIcon } from './solid/arrow-uturn-down.svelte';
+export { default as ArrowUturnLeftSolidIcon } from './solid/arrow-uturn-left.svelte';
+export { default as ArrowUturnRightSolidIcon } from './solid/arrow-uturn-right.svelte';
+export { default as ArrowUturnUpSolidIcon } from './solid/arrow-uturn-up.svelte';
+export { default as BackspaceSolidIcon } from './solid/backspace.svelte';
+export { default as BadgeCheckSolidIcon } from './solid/check-badge.svelte';
+export { default as CheckBadgeSolidIcon } from './solid/check-badge.svelte';
+export { default as BanSolidIcon } from './solid/no-symbol.svelte';
+export { default as NoSymbolSolidIcon } from './solid/no-symbol.svelte';
+export { default as BeakerSolidIcon } from './solid/beaker.svelte';
+export { default as BellSolidIcon } from './solid/bell.svelte';
+export { default as BellAlertSolidIcon } from './solid/bell-alert.svelte';
+export { default as BellSlashSolidIcon } from './solid/bell-slash.svelte';
+export { default as BellSnoozeSolidIcon } from './solid/bell-snooze.svelte';
+export { default as BookmarkSolidIcon } from './solid/bookmark.svelte';
+export { default as BookmarkAltSolidIcon } from './solid/bookmark-square.svelte';
+export { default as BookmarkAquareSolidIcon } from './solid/bookmark-square.svelte';
+export { default as BookmarkSlashSolidIcon } from './solid/bookmark-slash.svelte';
+export { default as BookOpenSolidIcon } from './solid/book-open.svelte';
+export { default as BriefcaseSolidIcon } from './solid/briefcase.svelte';
+export { default as CalculatorSolidIcon } from './solid/calculator.svelte';
+export { default as CalendarSolidIcon } from './solid/calendar.svelte';
+export { default as CalendarDaysSolidIcon } from './solid/calendar-days.svelte';
+export { default as CameraSolidIcon } from './solid/camera.svelte';
+export { default as CakeSolidIcon } from './solid/cake.svelte';
+export { default as CashSolidIcon } from './solid/cash.svelte';
+export { default as ChartBarSolidIcon } from './solid/chart-bar.svelte';
+export { default as ChartPieSolidIcon } from './solid/chart-pie.svelte';
+export { default as ChartSquareBarSolidIcon } from './solid/chart-bar-square.svelte';
+export { default as ChartBarSquareSolidIcon } from './solid/chart-bar-square.svelte';
+export { default as ChatSolidIcon } from './solid/chat-bubble-oval-left-ellipsis.svelte';
+export { default as ChatBubbleOvalLeftEllipsisSolidIcon } from './solid/chat-bubble-oval-left-ellipsis.svelte';
+export { default as ChatAltSolidIcon } from './solid/chat-bubble-left-ellipsis.svelte';
+export { default as ChatBubbleLeftEllipsisSolidIcon } from './solid/chat-bubble-left-ellipsis.svelte';
+export { default as ChatAlt2SolidIcon } from './solid/chat-bubble-left-right.svelte';
+export { default as ChatBubbleLeftRightSolidIcon } from './solid/chat-bubble-left-right.svelte';
+export { default as ChatBubleBottomCenterSolidIcon } from './solid/chat-bubble-bottom-center.svelte';
+export { default as ChatBubleBottomCenterTextSolidIcon } from './solid/chat-bubble-bottom-center-text.svelte';
+export { default as CheckSolidIcon } from './solid/check.svelte';
+export { default as CheckCircleSolidIcon } from './solid/check-circle.svelte';
+export { default as ChevronDoubleDownSolidIcon } from './solid/chevron-double-down.svelte';
+export { default as ChevronDoubleLeftSolidIcon } from './solid/chevron-double-left.svelte';
+export { default as ChevronDoubleRightSolidIcon } from './solid/chevron-double-right.svelte';
+export { default as ChevronDoubleUpSolidIcon } from './solid/chevron-double-up.svelte';
+export { default as ChevronDownSolidIcon } from './solid/chevron-down.svelte';
+export { default as ChevronLeftSolidIcon } from './solid/chevron-left.svelte';
+export { default as ChevronRightSolidIcon } from './solid/chevron-right.svelte';
+export { default as ChevronUpSolidIcon } from './solid/chevron-up.svelte';
+export { default as ChipSolidIcon } from './solid/cpu-chip.svelte';
+export { default as CpuChipSolidIcon } from './solid/cpu-chip.svelte';
+export { default as ClipboardSolidIcon } from './solid/clipboard.svelte';
+export { default as ClipboardCheckSolidIcon } from './solid/clipboard-document-check.svelte';
+export { default as ClipboardDocumentCheckSolidIcon } from './solid/clipboard-document-check.svelte';
+export { default as ClipboardCopySolidIcon } from './solid/clipboard-copy.svelte';
+export { default as ClipboardDocumentSolidIcon } from './solid/clipboard-document.svelte';
+export { default as ClipboardListSolidIcon } from './solid/clipboard-document-list.svelte';
+export { default as ClipboardDocumentListSolidIcon } from './solid/clipboard-document-list.svelte';
+export { default as ClockSolidIcon } from './solid/clock.svelte';
+export { default as CloudSolidIcon } from './solid/cloud.svelte';
+export { default as CloudDownloadSolidIcon } from './solid/cloud-arrow-down.svelte';
+export { default as CloudArrowDownSolidIcon } from './solid/cloud-arrow-down.svelte';
+export { default as CloudUploadSolidIcon } from './solid/cloud-arrow-up.svelte';
+export { default as CloudArrowUpSolidIcon } from './solid/cloud-arrow-up.svelte';
+export { default as CodeSolidIcon } from './solid/code-bracket.svelte';
+export { default as CodeBracketSolidIcon } from './solid/code-bracket.svelte';
+export { default as CodeBracketSquareSolidIcon } from './solid/code-bracket-square.svelte';
+export { default as CogSolidIcon } from './solid/cog.svelte';
+export { default as Cog6ToothSolidIcon } from './solid/cog-6-tooth.svelte';
+export { default as Cog8ToothSolidIcon } from './solid/cog-8-tooth.svelte';
+export { default as CollectionSolidIcon } from './solid/collection.svelte';
+export { default as ColorSwatchSolidIcon } from './solid/swatch.svelte';
+export { default as SwatchSolidIcon } from './solid/swatch.svelte';
+export { default as CreditCardSolidIcon } from './solid/credit-card.svelte';
+export { default as CubeSolidIcon } from './solid/cube.svelte';
+export { default as CubeTransparentSolidIcon } from './solid/cube-transparent.svelte';
+export { default as CurrencyBangladeshiSolidIcon } from './solid/currency-bangladeshi.svelte';
+export { default as CurrencyDollarSolidIcon } from './solid/currency-dollar.svelte';
+export { default as CurrencyEuroSolidIcon } from './solid/currency-euro.svelte';
+export { default as CurrencyPoundSolidIcon } from './solid/currency-pound.svelte';
+export { default as CurrencyRupeeSolidIcon } from './solid/currency-rupee.svelte';
+export { default as CurrencyYenSolidIcon } from './solid/currency-yen.svelte';
+export { default as CursorClickSolidIcon } from './solid/cursor-click.svelte';
+export { default as CursorArrowRaysSolidIcon } from './solid/cursor-arrow-rays.svelte';
+export { default as CursorArrowRippleSolidIcon } from './solid/cursor-arrow-ripple.svelte';
+export { default as DatabaseSolidIcon } from './solid/circle-stack.svelte';
+export { default as CircleStackSolidIcon } from './solid/circle-stack.svelte';
+export { default as DesktopComputerSolidIcon } from './solid/computer-desktop.svelte';
+export { default as ComputerDesktopSolidIcon } from './solid/computer-desktop.svelte';
+export { default as DeviceMobileSolidIcon } from './solid/device-phone-mobile.svelte';
+export { default as DevicePhoneMobileSolidIcon } from './solid/device-phone-mobile.svelte';
+export { default as DeviceTabletSolidIcon } from './solid/device-tablet.svelte';
+export { default as DocumentSolidIcon } from './solid/document.svelte';
+export { default as DocumentAddSolidIcon } from './solid/document-plus.svelte';
+export { default as DocumentDownloadSolidIcon } from './solid/document-arrow-down.svelte';
+export { default as DocumentArrowUpSolidIcon } from './solid/document-arrow-up.svelte';
+export { default as DocumentDuplicateSolidIcon } from './solid/document-duplicate.svelte';
+export { default as DocumentChartBarSolidIcon } from './solid/document-chart-bar.svelte';
+export { default as DocumentRemoveSolidIcon } from './solid/document-minus.svelte';
+export { default as DocumentReportSolidIcon } from './solid/document-report.svelte';
+export { default as DocumentSearchSolidIcon } from './solid/document-magnifying-glass.svelte';
+export { default as DocumentMagnifyingGlassSolidIcon } from './solid/document-magnifying-glass.svelte';
+export { default as DocumentTextSolidIcon } from './solid/document-text.svelte';
+export { default as DotsCircleHorizontalSolidIcon } from './solid/ellipsis-horizontal-circle.svelte';
+export { default as EllipsisHorizontalCircleSolidIcon } from './solid/ellipsis-horizontal-circle.svelte';
+export { default as DotsHorizontalSolidIcon } from './solid/ellipsis-horizontal.svelte';
+export { default as EllipsisHorizontalSolidIcon } from './solid/ellipsis-horizontal.svelte';
+export { default as DotsVerticalSolidIcon } from './solid/ellipsis-vertical.svelte';
+export { default as EllipsisVerticalSolidIcon } from './solid/ellipsis-vertical.svelte';
+export { default as DownloadSolidIcon } from './solid/arrow-down-tray.svelte';
+export { default as ArrowDownTraySolidIcon } from './solid/arrow-down-tray.svelte';
+export { default as DuplicateSolidIcon } from './solid/duplicate.svelte';
+export { default as EmojiHappySolidIcon } from './solid/face-smile.svelte';
+export { default as FaceSmileSolidIcon } from './solid/face-smile.svelte';
+export { default as FaceFrownSolidIcon } from './solid/face-frown.svelte';
+export { default as EmojiSadSolidIcon } from './solid/face-frown.svelte';
+export { default as ExclamationSolidIcon } from './solid/exclamation-triangle.svelte';
+export { default as ExclamationTriangleSolidIcon } from './solid/exclamation-triangle.svelte';
+export { default as ExclamationCircleSolidIcon } from './solid/exclamation-circle.svelte';
+export { default as ExternalLinkSolidIcon } from './solid/arrow-top-right-on-square.svelte';
+export { default as ArrowTopRightOnSquareSolidIcon } from './solid/arrow-top-right-on-square.svelte';
+export { default as EyeSolidIcon } from './solid/eye.svelte';
+export { default as EyeOffSolidIcon } from './solid/eye-slash.svelte';
+export { default as EyeSlasholidIcon } from './solid/eye-slash.svelte';
+export { default as FastForwardSolidIcon } from './solid/forward.svelte';
+export { default as ForwardSolidIcon } from './solid/forward.svelte';
+export { default as FilmSolidIcon } from './solid/film.svelte';
+export { default as FilterSolidIcon } from './solid/funnel.svelte';
+export { default as FunnelSolidIcon } from './solid/funnel.svelte';
+export { default as FingerPrintSolidIcon } from './solid/finger-print.svelte';
+export { default as FireSolidIcon } from './solid/fire.svelte';
+export { default as FlagSolidIcon } from './solid/flag.svelte';
+export { default as FolderSolidIcon } from './solid/folder.svelte';
+export { default as FolderAddSolidIcon } from './solid/folder-plus.svelte';
+export { default as FolderPlusSolidIcon } from './solid/folder-plus.svelte';
+export { default as FolderDownloadSolidIcon } from './solid/folder-arrow-down.svelte';
+export { default as FolderArrowDownloadSolidIcon } from './solid/folder-arrow-down.svelte';
+export { default as FolderOpenSolidIcon } from './solid/folder-open.svelte';
+export { default as FolderRemoveSolidIcon } from './solid/folder-minus.svelte';
+export { default as FolderMinusSolidIcon } from './solid/folder-minus.svelte';
+export { default as GifSolidIcon } from './solid/gif.svelte';
+export { default as GiftSolidIcon } from './solid/gift.svelte';
+export { default as GiftTopSolidIcon } from './solid/gift-top.svelte';
+export { default as GlobeSolidIcon } from './solid/globe.svelte';
+export { default as GlobeAltSolidIcon } from './solid/globe-alt.svelte';
+export { default as GlobeAmericasSolidIcon } from './solid/globe-americas.svelte';
+export { default as GlobeAsiaAustraliaSolidIcon } from './solid/globe-asia-australia.svelte';
+export { default as GlobeEuropeAfricaSolidIcon } from './solid/globe-europe-africa.svelte';
+export { default as HandSolidIcon } from './solid/hand-raised.svelte';
+export { default as HandRaisedSolidIcon } from './solid/hand-raised.svelte';
+export { default as HastagSolidIcon } from './solid/hashtag.svelte';
+export { default as HashtagSolidIcon } from './solid/hashtag.svelte';
+export { default as HeartSolidIcon } from './solid/heart.svelte';
+export { default as HomeSolidIcon } from './solid/home.svelte';
+export { default as HomeModernSolidIcon } from './solid/home-modern.svelte';
+export { default as IdentificationSolidIcon } from './solid/identification.svelte';
+export { default as InboxSolidIcon } from './solid/inbox.svelte';
+export { default as InboxStackSolidIcon } from './solid/inbox-stack.svelte';
+export { default as InboxInSolidIcon } from './solid/inbox-arrow-down.svelte';
+export { default as InboxArrowDownSolidIcon } from './solid/inbox-arrow-down.svelte';
+export { default as InformationCircleSolidIcon } from './solid/information-circle.svelte';
+export { default as KeySolidIcon } from './solid/key.svelte';
+export { default as LibrarySolidIcon } from './solid/building-library.svelte';
+export { default as BuildingLibrarySolidIcon } from './solid/building-library.svelte';
+export { default as BuildingOfficeSolidIcon } from './solid/building-office.svelte';
+export { default as BuildingOffice2SolidIcon } from './solid/building-office-2.svelte';
+export { default as BuildingStorefrontSolidIcon } from './solid/building-storefront.svelte';
+export { default as LightBulbSolidIcon } from './solid/light-bulb.svelte';
+export { default as LightningBoltSolidIcon } from './solid/bolt.svelte';
+export { default as BoltSolidIcon } from './solid/bolt.svelte';
+export { default as BoltSlashSolidIcon } from './solid/bolt-slash.svelte';
+export { default as LinkSolidIcon } from './solid/link.svelte';
+export { default as LocationMarkerSolidIcon } from './solid/map-pin.svelte';
+export { default as MapPinSolidIcon } from './solid/map-pin.svelte';
+export { default as LockClosedSolidIcon } from './solid/lock-closed.svelte';
+export { default as LockOpenSolidIcon } from './solid/lock-open.svelte';
+export { default as LoginSolidIcon } from './solid/arrow-left-on-rectangle.svelte';
+export { default as ArrowLeftOnRectangleSolidIcon } from './solid/arrow-left-on-rectangle.svelte';
+export { default as LogoutSolidIcon } from './solid/arrow-right-on-rectangle.svelte';
+export { default as ArrowRightOnRectangleSolidIcon } from './solid/arrow-right-on-rectangle.svelte';
+export { default as MailSolidIcon } from './solid/envelope.svelte';
+export { default as EnvelopeSolidIcon } from './solid/envelope.svelte';
+export { default as MailOpenSolidIcon } from './solid/envelope-open.svelte';
+export { default as EnvelopeOpenSolidIcon } from './solid/envelope-open.svelte';
+export { default as MapSolidIcon } from './solid/map.svelte';
+export { default as MegaphoneSolidIcon } from './solid/megaphone.svelte';
+export { default as MenuSolidIcon } from './solid/bars-3.svelte';
+export { default as Bars3SolidIcon } from './solid/bars-3.svelte';
+export { default as MenuAlt1SolidIcon } from './solid/bars-3-center-left.svelte';
+export { default as Bars3CenterLeftSolidIcon } from './solid/bars-3-center-left.svelte';
+export { default as MenuAlt2SolidIcon } from './solid/bars-3-bottom-left.svelte';
+export { default as MenuAlt3SolidIcon } from './solid/bars-3-bottom-right.svelte';
+export { default as Bars3BottomRightSolidIcon } from './solid/bars-3-bottom-right.svelte';
+export { default as MenuAlt4SolidIcon } from './solid/bars-2.svelte';
+export { default as Bars2SolidIcon } from './solid/bars-2.svelte';
+export { default as MicrophoneSolidIcon } from './solid/microphone.svelte';
+export { default as MinusSolidIcon } from './solid/minus.svelte';
+export { default as MinusCircleSolidIcon } from './solid/minus-circle.svelte';
+export { default as MinusSmSolidIcon } from './solid/minus-sm.svelte';
+export { default as MoonSolidIcon } from './solid/moon.svelte';
+export { default as MusicNoteSolidIcon } from './solid/musical-note.svelte';
+export { default as MusicalNoteSolidIcon } from './solid/musical-note.svelte';
+export { default as NewspaperSolidIcon } from './solid/newspaper.svelte';
+export { default as OfficeBuildingSolidIcon } from './solid/office-building.svelte';
+export { default as PaperAirplaneSolidIcon } from './solid/paper-airplane.svelte';
+export { default as PaperClipSolidIcon } from './solid/paper-clip.svelte';
+export { default as PauseSolidIcon } from './solid/pause.svelte';
+export { default as PencilSolidIcon } from './solid/pencil.svelte';
+export { default as PencilAltSolidIcon } from './solid/pencil-square.svelte';
+export { default as PencilSquareSolidIcon } from './solid/pencil-square.svelte';
+export { default as PhoneSolidIcon } from './solid/phone.svelte';
+export { default as PhoneIncomingSolidIcon } from './solid/phone-arrow-down-left.svelte';
+export { default as PhoneArrowDownLeftSolidIcon } from './solid/phone-arrow-down-left.svelte';
+export { default as PhoneMissedCallSolidIcon } from './solid/phone-x-mark.svelte';
+export { default as PhoneXMarkSolidIcon } from './solid/phone-x-mark.svelte';
+export { default as PhoneOutgoingSolidIcon } from './solid/phone-arrow-up-right.svelte';
+export { default as PhoneArrowUpRightSolidIcon } from './solid/phone-arrow-up-right.svelte';
+export { default as PhotographSolidIcon } from './solid/photo.svelte';
+export { default as PhotoSolidIcon } from './solid/photo.svelte';
+export { default as PlaySolidIcon } from './solid/play.svelte';
+export { default as PlusSolidIcon } from './solid/plus.svelte';
+export { default as PlusCircleSolidIcon } from './solid/plus-circle.svelte';
+export { default as PlusSmSolidIcon } from './solid/plus-sm.svelte';
+export { default as PresentationChartBarSolidIcon } from './solid/presentation-chart-bar.svelte';
+export { default as PresentationChartLineSolidIcon } from './solid/presentation-chart-line.svelte';
+export { default as PrinterSolidIcon } from './solid/printer.svelte';
+export { default as PuzzleSolidIcon } from './solid/puzzle-piece.svelte';
+export { default as PuzzlePieceSolidIcon } from './solid/puzzle-piece.svelte';
+export { default as QrcodeSolidIcon } from './solid/qr-code.svelte';
+export { default as QrCodeSolidIcon } from './solid/qr-code.svelte';
+export { default as QuestionMarkCircleSolidIcon } from './solid/question-mark-circle.svelte';
+export { default as QueueListSolidIcon } from './solid/queue-list.svelte';
+export { default as RadioSolidIcon } from './solid/radio.svelte';
+export { default as RectangleGroupSolidIcon } from './solid/rectangle-group.svelte';
+export { default as RectangleStackSolidIcon } from './solid/rectangle-stack.svelte';
+export { default as ReceiptRefundSolidIcon } from './solid/receipt-refund.svelte';
+export { default as ReceiptTaxSolidIcon } from './solid/receipt-percent.svelte';
+export { default as ReceiptPercentSolidIcon } from './solid/receipt-percent.svelte';
+export { default as RefreshSolidIcon } from './solid/arrow-path.svelte';
+export { default as ArrowPathSolidIcon } from './solid/arrow-path.svelte';
+export { default as ReplySolidIcon } from './solid/reply.svelte';
+export { default as RewindSolidIcon } from './solid/backward.svelte';
+export { default as BackwardSolidIcon } from './solid/backward.svelte';
+export { default as BankNotesSolidIcon } from './solid/banknotes.svelte';
+export { default as RssSolidIcon } from './solid/rss.svelte';
+export { default as SaveSolidIcon } from './solid/save.svelte';
+export { default as SaveAsSolidIcon } from './solid/save-as.svelte';
+export { default as ScaleSolidIcon } from './solid/scale.svelte';
+export { default as ScissorsSolidIcon } from './solid/scissors.svelte';
+export { default as SearchSolidIcon } from './solid/magnifying-glass.svelte';
+export { default as MagnifyingGlassSolidIcon } from './solid/magnifying-glass.svelte';
+export { default as SearchCircleSolidIcon } from './solid/search-circle.svelte';
+export { default as SelectorSolidIcon } from './solid/chevron-up-down.svelte';
+export { default as ChevronUpDownSolidIcon } from './solid/chevron-up-down.svelte';
+export { default as ServerSolidIcon } from './solid/server.svelte';
+export { default as ServerStackSolidIcon } from './solid/server-stack.svelte';
+export { default as SignalSolidIcon } from './solid/signal.svelte';
+export { default as SignalSlashSolidIcon } from './solid/signal-slash.svelte';
+export { default as ShareSolidIcon } from './solid/share.svelte';
+export { default as ShieldCheckSolidIcon } from './solid/shield-check.svelte';
+export { default as ShieldExclamationSolidIcon } from './solid/shield-exclamation.svelte';
+export { default as ShoppingBagSolidIcon } from './solid/shopping-bag.svelte';
+export { default as ShoppingCartSolidIcon } from './solid/shopping-cart.svelte';
+export { default as SortAscendingSolidIcon } from './solid/bars-arrow-up.svelte';
+export { default as BarsArrowUpSolidIcon } from './solid/bars-arrow-up.svelte';
+export { default as SortDescendingSolidIcon } from './solid/bars-arrow-down.svelte';
+export { default as BarsArrowDownSolidIcon } from './solid/bars-arrow-down.svelte';
+export { default as SparklesSolidIcon } from './solid/sparkles.svelte';
+export { default as SpeakerPhoneSolidIcon } from './solid/speaker-phone.svelte';
+export { default as StarSolidIcon } from './solid/star.svelte';
+export { default as StatusOfflineSolidIcon } from './solid/status-offline.svelte';
+export { default as StatusOnlineSolidIcon } from './solid/status-online.svelte';
+export { default as StopSolidIcon } from './solid/stop.svelte';
+export { default as SunSolidIcon } from './solid/sun.svelte';
+export { default as SupportSolidIcon } from './solid/lifebuoy.svelte';
+export { default as LifebuoySolidIcon } from './solid/lifebuoy.svelte';
+export { default as SwitchHorizontalSolidIcon } from './solid/arrows-right-left.svelte';
+export { default as ArrowsRightLeftSolidIcon } from './solid/arrows-right-left.svelte';
+export { default as SwitchVerticalSolidIcon } from './solid/arrows-up-down.svelte';
+export { default as ArrowsUpDownSolidIcon } from './solid/arrows-up-down.svelte';
+export { default as TableSolidIcon } from './solid/table-cells.svelte';
+export { default as TableCellsSolidIcon } from './solid/table-cells.svelte';
+export { default as TagSolidIcon } from './solid/tag.svelte';
+export { default as ListBulletSolidIcon } from './solid/list-bullet.svelte';
+export { default as TemplateSolidIcon } from './solid/template.svelte';
+export { default as TerminalSolidIcon } from './solid/command-line.svelte';
+export { default as CommandLineSolidIcon } from './solid/command-line.svelte';
+export { default as ThumbDownSolidIcon } from './solid/hand-thumb-down.svelte';
+export { default as HandThumbDownSolidIcon } from './solid/hand-thumb-down.svelte';
+export { default as ThumbUpSolidIcon } from './solid/hand-thumb-up.svelte';
+export { default as HandThumbUpSolidIcon } from './solid/hand-thumb-up.svelte';
+export { default as TicketSolidIcon } from './solid/ticket.svelte';
+export { default as TranslateSolidIcon } from './solid/language.svelte';
+export { default as LanguageSolidIcon } from './solid/language.svelte';
+export { default as TrashSolidIcon } from './solid/trash.svelte';
+export { default as TrendingDownSolidIcon } from './solid/arrow-trending-down.svelte';
+export { default as ArrowTrendingDownSolidIcon } from './solid/arrow-trending-down.svelte';
+export { default as TrendingUpSolidIcon } from './solid/arrow-trending-up.svelte';
+export { default as ArrowTrendingUpSolidIcon } from './solid/arrow-trending-up.svelte';
+export { default as TruckSolidIcon } from './solid/truck.svelte';
+export { default as UploadSolidIcon } from './solid/arrow-up-tray.svelte';
+export { default as ArrowUpTraySolidIcon } from './solid/arrow-up-tray.svelte';
+export { default as UserSolidIcon } from './solid/user.svelte';
+export { default as UserAddSolidIcon } from './solid/user-plus.svelte';
+export { default as UserPlusSolidIcon } from './solid/user-plus.svelte';
+export { default as UserCircleSolidIcon } from './solid/user-circle.svelte';
+export { default as UserGroupSolidIcon } from './solid/user-group.svelte';
+export { default as UserRemoveSolidIcon } from './solid/user-minus.svelte';
+export { default as UserMinusSolidIcon } from './solid/user-minus.svelte';
+export { default as UsersSolidIcon } from './solid/users.svelte';
+export { default as VariableSolidIcon } from './solid/variable.svelte';
+export { default as VideoCameraSolidIcon } from './solid/video-camera.svelte';
+export { default as VideoCameraSlashSolidIcon } from './solid/video-camera-slash.svelte';
+export { default as WrenchSolidIcon } from './solid/wrench.svelte';
+export { default as WrenchScrewdriverSolidIcon } from './solid/wrench-screwdriver.svelte';
+export { default as ViewBoardsSolidIcon } from './solid/view-columns.svelte';
+export { default as ViewColumnsSolidIcon } from './solid/view-columns.svelte';
+export { default as Square2StackSolidIcon } from './solid/square-2-stack.svelte';
+export { default as ViewGridSolidIcon } from './solid/squares-2x2.svelte';
+export { default as Squares2x2SolidIcon } from './solid/squares-2x2.svelte';
+export { default as ViewGridAddSolidIcon } from './solid/squares-plus.svelte';
+export { default as SquarePlusSolidIcon } from './solid/squares-plus.svelte';
+export { default as ViewListSolidIcon } from './solid/bars-4.svelte';
+export { default as Bars4SolidIcon } from './solid/bars-4.svelte';
+export { default as VolumeOffSolidIcon } from './solid/speaker-x-mark.svelte';
+export { default as SpeakerXMarkSolidIcon } from './solid/speaker-x-mark.svelte';
+export { default as VolumeUpSolidIcon } from './solid/speaker-wave.svelte';
+export { default as SpeakerWafeSolidIcon } from './solid/speaker-wave.svelte';
+export { default as WifiSolidIcon } from './solid/wifi.svelte';
+export { default as XSolidIcon } from './solid/x-mark.svelte';
+export { default as XMarkSolidIcon } from './solid/x-mark.svelte';
+export { default as XCircleSolidIcon } from './solid/x-circle.svelte';
+export { default as MagnifyingGlassCircleSolidIcon } from './solid/magnifying-glass-circle.svelte';
+export { default as ZoomInSolidIcon } from './solid/magnifying-glass-plus.svelte';
+export { default as MagnifyingGlassPlusSolidIcon } from './solid/magnifying-glass-plus.svelte';
+export { default as ZoomOutSolidIcon } from './solid/magnifying-glass-minus.svelte';
+export { default as MagnifyingGlassMinusSolidIcon } from './solid/magnifying-glass-minus.svelte';
+//# sourceMappingURL=index.js.map

@@ -10,6 +10,7 @@
     "semantic-release": "semantic-release",
     "commit": "git-cz",
     "add-and-push": "git add -A && git-cz && git push",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
     "ts": "tsc"
   },
   "keywords": [
@@ -29,6 +30,7 @@
     "rollup-plugin-svelte": "^7.1.0",
     "semantic-release": "^19.0.2",
     "svelte": "^3.44.3",
+    "svelte-check": "^2.9.0",
     "typescript": "^4.7.2"
   },
   "config": {
