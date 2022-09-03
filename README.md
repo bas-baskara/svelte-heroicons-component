@@ -12,9 +12,11 @@ npm install -D svelte-heroicons-component
 ### Usage
 
 ```js
+/*
+Check the name of icons from https://heroicons.com/ or https://v1.heroicons.com/.
 
-//Example: to use heroicons home just import the HomeIcon component. If you want to use a solid icon import HomeSolidIcon.
-
+To use heroicons home just import the HomeIcon component. If you want to use a solid icon import HomeSolidIcon.
+*/
 import { HomeIcon, HomeSolidIcon} from 'svelte-heroicons-component'
 
 
