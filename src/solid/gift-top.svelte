@@ -30,7 +30,7 @@
 
 </script>
 
-<svg viewBox="0 0 24 24" class={className} fill="currentColor" xmlns="http://www.w3.org/2000/svg"  style="width:{size}{hasUnit ? '':'rem'};height:{size}{hasUnit ? '':'rem'}" on:click={() => dispatch('click')} >
+<svg viewBox="0 0 24 24" class={className} fill="currentColor" xmlns="http://www.w3.org/2000/svg"  style="width:{size}{hasUnit ? '':'rem'};height:{size}{hasUnit ? '':'rem'}"  on:keyup on:click={() => dispatch('click')} >
 <path d="M11.25 3V7.04639C10.0748 5.9271 8.21463 5.94444 7.06066 7.09841C5.91897 8.2401 5.88985 10.073 6.9733 11.25H1.5V5.25C1.5 4.00736 2.50736 3 3.75 3H11.25Z" {fill} />
 <path d="M12.75 3V7.01102C13.927 5.92757 15.7599 5.95669 16.9016 7.09838C18.0433 8.24008 18.0724 10.073 16.9889 11.25H22.5V5.25C22.5 4.00736 21.4926 3 20.25 3H12.75Z" {fill} />
 <path d="M22.5 12.75H13.5168C13.7063 14.8524 15.4732 16.5 17.625 16.5C18.0392 16.5 18.375 16.8358 18.375 17.25C18.375 17.6642 18.0392 18 17.625 18C15.5412 18 13.722 16.8669 12.75 15.1831V21H20.25C21.4926 21 22.5 19.9926 22.5 18.75V12.75Z" {fill} />

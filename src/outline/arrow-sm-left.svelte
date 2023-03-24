@@ -30,6 +30,6 @@
 
 </script>
 
-<svg xmlns="http://www.w3.org/2000/svg" class={className} {fill} viewBox="0 0 24 24" stroke="currentColor" style="width:{size}{hasUnit ? '':'rem'};height:{size}{hasUnit ? '':'rem'}" on:click={() => dispatch('click')}>
+<svg xmlns="http://www.w3.org/2000/svg" class={className} {fill} viewBox="0 0 24 24" stroke="currentColor" style="width:{size}{hasUnit ? '':'rem'};height:{size}{hasUnit ? '':'rem'}"  on:keyup on:click={() => dispatch('click')}>
     <path stroke-linecap="round" stroke-linejoin="round" stroke-width={strokeWidth} d="M11 17l-5-5m0 0l5-5m-5 5h12" />
 </svg>
